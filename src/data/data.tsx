@@ -42,8 +42,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Jakub Waller',
+  description: "Jakub Waller's resume website",
 };
 
 /**
@@ -66,18 +66,20 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Jakub Waller.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Hamburg based <strong className="text-stone-100">Data Scientist</strong>, currently looking for
+        a job in climate. Because there is no Planet B.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me travelling the <strong className="text-stone-100">Planet A</strong>,
+        biking so that I win the Strava competition organised by
+        my <strong className="text-stone-100">Strava Telegram Bot</strong> against my friends,
+        building more Telegram bots such as the <strong className="text-stone-100">Probable Futures Bot</strong>,
+        reading a <strong className="text-stone-100">good book</strong>,
+        or playing one of my <strong className="text-stone-100">two guitars</strong>.
       </p>
     </>
   ),
@@ -101,16 +103,29 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
+  on a number of various projects involving Data Science, Machine Learning and Big Data topics
+  using a wide range of technologies.
+
+  Then I took a year off to travel around our beautiful PLanet A.
+  After returning, I knew that I want to dedicate my career not only to data, but to climate and data.
+
+  I graduated from the Czech Technical University in Prague with a master's thesis focused on
+  time series classification using artificial neural networks.
+  During my studies I also gained practical experience,
+  where the most significant is a cooperation with Datamole, s.r.o. on the above mentioned thesis
+  and one data mining project and with Mibcon a.s. programming SAP portal applications in Java,
+  AngularJS and HTML.
+
+  I have gained other valuable experience during two semesters at the Tallinn University of Technology, Estonia
+  and the University of Waterloo, Canada.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Hamburg, Germany', Icon: MapIcon},
+    {label: 'Age', text: '31', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Czech', Icon: FlagIcon},
+    {label: 'Interests', text: 'Travelling, biking, books, music', Icon: SparklesIcon},
+    {label: 'Study', text: 'Czech Technical University of Prague, University of Waterloo, TalTech – Tallinn University of Technology', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Loading...', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -123,16 +138,20 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
+        level: 9,
+      },
+      {
+        name: 'German',
+        level: 8,
+      },
+      {
+        name: 'Czech',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
         name: 'Spanish',
-        level: 3,
-      },
+        level: 1,
+      }
     ],
   },
   {
@@ -339,9 +358,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/jakubwaller'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/7844121/aloissiola'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jakubwaller/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/alois_siola/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/aloissiola42'},
 ];
