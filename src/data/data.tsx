@@ -333,23 +333,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'reachout@jakubwaller.eu',
+      href: 'mailto:reachout@jakubwaller.eu',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Hamburg, Germany',
+      href: 'https://maps.app.goo.gl/f3yxsRpANsE8tHVa6',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@alois_siola',
+      href: 'https://www.instagram.com/alois_siola/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'jakubwaller',
+      href: 'https://github.com/jakubwaller',
     },
   ],
 };
