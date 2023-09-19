@@ -212,9 +212,11 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Probable Futures Bot',
+    description: """https://t.me/ProbableFuturesBot is a Telegram Bot that is connected to the Probable Futures API.\
+                    Either share your location or send an address, choose a warming scenario (e.g. +2°), \
+                    and a map (e.g. Nights above 25°C (77°F)) and the bot will send back the info from Probable Futures.""",
+    url: 'https://github.com/jakubwaller/probable-futures-bot',
     image: porfolioImage1,
   },
   {
