@@ -103,7 +103,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: <>For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
+  description: <p className="prose prose-sm text-gray-300 sm:prose-base">For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
   on a number of various projects involving Data Science, Machine Learning and Big Data topics
   using a wide range of technologies.
   <br></br>
@@ -119,14 +119,14 @@ export const aboutData: About = {
   AngularJS and HTML.
   <br></br>
   I have gained other valuable experience during two semesters at the Tallinn University of Technology, Estonia
-  and the University of Waterloo, Canada.</>,
+  and the University of Waterloo, Canada.</p>,
   aboutItems: [
-    {label: 'Location', text: 'Hamburg, Germany', Icon: MapIcon},
-    {label: 'Age', text: '31', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Czech', Icon: FlagIcon},
-    {label: 'Interests', text: 'Cycling, books, music', Icon: SparklesIcon},
+    {label: 'Location', text: <>Hamburg, Germany</>, Icon: MapIcon},
+    {label: 'Age', text: <>31</>, Icon: CalendarIcon},
+    {label: 'Nationality', text: <>Czech</>, Icon: FlagIcon},
+    {label: 'Interests', text: <>Cycling, books, music</>, Icon: SparklesIcon},
     {label: 'Study', text: <>Czech Technical University of Prague,<br></br>University of Waterloo,<br></br>TalTech – Tallinn University of Technology</>, Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Loading...', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: <>Loading...</>, Icon: BuildingOffice2Icon},
   ],
 };
 
