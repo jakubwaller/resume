@@ -103,28 +103,29 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
+  description: <>For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
   on a number of various projects involving Data Science, Machine Learning and Big Data topics
   using a wide range of technologies.
-  </br>
-  Then I took a year off to travel around our beautiful PLanet A.
+  <br></br>
+  Then I took a year off to travel around our beautiful Planet A.
   After returning, I knew that I want to dedicate my career not only to data, but to climate and data.
-  </br>
+  <br></br>
+  <br></br>
   I graduated from the Czech Technical University in Prague with a master's thesis focused on
   time series classification using artificial neural networks.
   During my studies I also gained practical experience,
   where the most significant is a cooperation with Datamole, s.r.o. on the above mentioned thesis
   and one data mining project and with Mibcon a.s. programming SAP portal applications in Java,
   AngularJS and HTML.
-  </br>
+  <br></br>
   I have gained other valuable experience during two semesters at the Tallinn University of Technology, Estonia
-  and the University of Waterloo, Canada.`,
+  and the University of Waterloo, Canada.</>,
   aboutItems: [
     {label: 'Location', text: 'Hamburg, Germany', Icon: MapIcon},
     {label: 'Age', text: '31', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Czech', Icon: FlagIcon},
-    {label: 'Interests', text: 'Travelling, biking, books, music', Icon: SparklesIcon},
-    {label: 'Study', text: "Czech Technical University of Prague</br>University of Waterloo</br>TalTech – Tallinn University of Technology", Icon: AcademicCapIcon},
+    {label: 'Interests', text: 'Cycling, books, music', Icon: SparklesIcon},
+    {label: 'Study', text: <>Czech Technical University of Prague,<br></br>University of Waterloo,<br></br>TalTech – Tallinn University of Technology</>, Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Loading...', Icon: BuildingOffice2Icon},
   ],
 };
@@ -302,7 +303,7 @@ export const education: TimelineItem[] = [
     content: <>Computer Science</>,
   },
   {
-    date: '2016',
+    date: '2011-2014',
     location: 'Czech Technical University in Prague',
     title: "Bachelor's Degree",
     content: <>Computer Science</>,
