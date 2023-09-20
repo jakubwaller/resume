@@ -18,9 +18,9 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.png';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.png';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.png';
 import porfolioImage8 from '../images/portfolio/portfolio-8.png';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
@@ -75,7 +75,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me travelling the <strong className="text-stone-100">Planet A</strong>,
-        biking so that I win the Strava competition organised by
+        cycling so that I win the Strava competition organised by
         my <strong className="text-stone-100">Strava Telegram Bot</strong> against my friends,
         building more Telegram bots such as the <strong className="text-stone-100">Probable Futures Bot</strong>,
         reading a <strong className="text-stone-100">good book</strong>,
@@ -231,14 +231,14 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Probable Futures Bot',
-    description: "https://t.me/ProbableFuturesBot is a Telegram Bot that is connected to the Probable Futures API. Either share your location or send an address, choose a warming scenario (e.g. +2°), and a map (e.g. Nights above 25°C (77°F)) and the bot will send back the info from Probable Futures.",
+    description: "Probable Futures Bot is a Telegram Bot that is connected to the Probable Futures API and sends Probable Future scenarios for either an address or a location.",
     url: 'https://github.com/jakubwaller/probable-futures-bot',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Cat Bot',
+    description: 'This Telegram CatBot can send images/gifs of cats on request. Either randomly or by breed.',
+    url: 'https://github.com/jakubwaller/catbot',
     image: porfolioImage5,
   },
   {
@@ -248,9 +248,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Leipzig Appointments Bot',
+    description: 'Tired of refreshing the page with available appointments at the Leipzig city office? The bot in this channel checks them for you and every minute sends available appointments.',
+    url: 'https://github.com/jakubwaller/leipzigappointmentsbot',
     image: porfolioImage7,
   },
   {
