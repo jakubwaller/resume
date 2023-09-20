@@ -104,6 +104,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
+  <>
   <p>
   For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
   on a number of various projects involving Data Science, Machine Learning and Big Data topics
@@ -125,13 +126,14 @@ export const aboutData: About = {
   I have gained other valuable experience during two semesters at the Tallinn University of Technology, Estonia
   and the University of Waterloo, Canada.
   </p>
+  </>
   ),
   aboutItems: [
     {label: 'Location', text: 'Hamburg, Germany', Icon: MapIcon},
     {label: 'Age', text: '31', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Czech', Icon: FlagIcon},
     {label: 'Interests', text: 'Travelling, biking, books, music', Icon: SparklesIcon},
-    {label: 'Study', text: (<p>Czech Technical University of Prague</p><p>University of Waterloo</p><p>TalTech – Tallinn University of Technology</p>), Icon: AcademicCapIcon},
+    {label: 'Study', text: (<><p>Czech Technical University of Prague</p><p>University of Waterloo</p><p>TalTech – Tallinn University of Technology</p></>), Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Loading...', Icon: BuildingOffice2Icon},
   ],
 };
