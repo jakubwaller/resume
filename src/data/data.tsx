@@ -79,7 +79,7 @@ export const heroData: Hero = {
         my <strong className="text-stone-100">Strava Telegram Bot</strong> against my friends,
         building more Telegram bots such as the <strong className="text-stone-100">Probable Futures Bot</strong>,
         reading a <strong className="text-stone-100">good book</strong>,
-        or playing one of my <strong className="text-stone-100">two guitars</strong>.
+        or playing a <strong className="text-stone-100">guitar</strong>.
       </p>
     </>
   ),
@@ -103,28 +103,35 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
+  description: (
+  <p>
+  For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
   on a number of various projects involving Data Science, Machine Learning and Big Data topics
   using a wide range of technologies.
-
+  </p>
+  <p>
   Then I took a year off to travel around our beautiful PLanet A.
   After returning, I knew that I want to dedicate my career not only to data, but to climate and data.
-
+  </p>
+  <p>
   I graduated from the Czech Technical University in Prague with a master's thesis focused on
   time series classification using artificial neural networks.
   During my studies I also gained practical experience,
   where the most significant is a cooperation with Datamole, s.r.o. on the above mentioned thesis
   and one data mining project and with Mibcon a.s. programming SAP portal applications in Java,
   AngularJS and HTML.
-
+  </p>
+  <p>
   I have gained other valuable experience during two semesters at the Tallinn University of Technology, Estonia
-  and the University of Waterloo, Canada.`,
+  and the University of Waterloo, Canada.
+  </p>
+  ),
   aboutItems: [
     {label: 'Location', text: 'Hamburg, Germany', Icon: MapIcon},
     {label: 'Age', text: '31', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Czech', Icon: FlagIcon},
     {label: 'Interests', text: 'Travelling, biking, books, music', Icon: SparklesIcon},
-    {label: 'Study', text: 'Czech Technical University of Prague, University of Waterloo, TalTech – Tallinn University of Technology', Icon: AcademicCapIcon},
+    {label: 'Study', text: (<p>Czech Technical University of Prague</p><p>University of Waterloo</p><p>TalTech – Tallinn University of Technology</p>), Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Loading...', Icon: BuildingOffice2Icon},
   ],
 };
@@ -137,16 +144,16 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
+        name: 'Czech',
+        level: 10,
+      },
+      {
         name: 'English',
         level: 9,
       },
       {
         name: 'German',
         level: 8,
-      },
-      {
-        name: 'Czech',
-        level: 10,
       },
       {
         name: 'Spanish',
@@ -284,16 +291,28 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2014-2017',
+    location: 'Czech Technical University in Prague',
+    title: "Master's Degree",
+    content: "Knowledge Engineering",
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2016',
+    location: 'University of Waterloo',
+    title: 'Exchange semester',
+    content: "Artificial Intelligence",
+  },
+  {
+    date: '2014',
+    location: 'TalTech – Tallinn University of Technology',
+    title: 'Erasmus programme',
+    content: "Computer Science",
+  },
+  {
+    date: '2016',
+    location: 'Czech Technical University in Prague',
+    title: "Bachelor's Degree",
+    content: "Computer Science",
   },
 ];
 
@@ -329,7 +348,7 @@ export const experience: TimelineItem[] = [
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: "Let's chat!",
   items: [
     {
       type: ContactType.Email,
@@ -337,9 +356,19 @@ export const contact: ContactSection = {
       href: 'mailto:reachout@jakubwaller.eu',
     },
     {
-      type: ContactType.Location,
-      text: 'Hamburg, Germany',
-      href: 'https://maps.app.goo.gl/f3yxsRpANsE8tHVa6',
+      type: ContactType.LinkedIn,
+      text: 'jakubwaller',
+      href: 'https://www.linkedin.com/in/jakubwaller/',
+    },
+    {
+      type: ContactType.Github,
+      text: 'jakubwaller',
+      href: 'https://github.com/jakubwaller',
+    },
+    {
+      type: ContactType.Twitter,
+      text: '@aloissiola42',
+      href: 'https://twitter.com/aloissiola42',
     },
     {
       type: ContactType.Instagram,
@@ -347,9 +376,9 @@ export const contact: ContactSection = {
       href: 'https://www.instagram.com/alois_siola/',
     },
     {
-      type: ContactType.Github,
-      text: 'jakubwaller',
-      href: 'https://github.com/jakubwaller',
+      type: ContactType.Location,
+      text: 'Hamburg, Germany',
+      href: 'https://maps.app.goo.gl/f3yxsRpANsE8tHVa6',
     },
   ],
 };
