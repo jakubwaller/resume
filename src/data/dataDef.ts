@@ -39,13 +39,13 @@ interface HeroActionItem {
  */
 export interface About {
   profileImageSrc?: string;
-  description: string;
+  description: JSX.Element;
   aboutItems: AboutItem[];
 }
 
 export interface AboutItem {
   label: string;
-  text: string;
+  text: JSX.Element;
   Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
 }
 
