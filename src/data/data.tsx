@@ -103,31 +103,22 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: (
-  <>
-      <p className="prose prose-sm text-gray-300 sm:prose-base">
-      For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
-      on a number of various projects involving Data Science, Machine Learning and Big Data topics
-      using a wide range of technologies.
-      </p>
-      <p className="prose prose-sm text-gray-300 sm:prose-base">
-      Then I took a year off to travel around our beautiful PLanet A.
-      After returning, I knew that I want to dedicate my career not only to data, but to climate and data.
-      </p>
-      <p className="prose prose-sm text-gray-300 sm:prose-base">
-      I graduated from the Czech Technical University in Prague with a master's thesis focused on
-      time series classification using artificial neural networks.
-      During my studies I also gained practical experience,
-      where the most significant is a cooperation with Datamole, s.r.o. on the above mentioned thesis
-      and one data mining project and with Mibcon a.s. programming SAP portal applications in Java,
-      AngularJS and HTML.
-      </p>
-      <p className="prose prose-sm text-gray-300 sm:prose-base">
-      I have gained other valuable experience during two semesters at the Tallinn University of Technology, Estonia
-      and the University of Waterloo, Canada.
-      </p>
-  </>
-  ),
+  description: `For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
+  on a number of various projects involving Data Science, Machine Learning and Big Data topics
+  using a wide range of technologies.
+  </br>
+  Then I took a year off to travel around our beautiful PLanet A.
+  After returning, I knew that I want to dedicate my career not only to data, but to climate and data.
+  </br>
+  I graduated from the Czech Technical University in Prague with a master's thesis focused on
+  time series classification using artificial neural networks.
+  During my studies I also gained practical experience,
+  where the most significant is a cooperation with Datamole, s.r.o. on the above mentioned thesis
+  and one data mining project and with Mibcon a.s. programming SAP portal applications in Java,
+  AngularJS and HTML.
+  </br>
+  I have gained other valuable experience during two semesters at the Tallinn University of Technology, Estonia
+  and the University of Waterloo, Canada.`,
   aboutItems: [
     {label: 'Location', text: 'Hamburg, Germany', Icon: MapIcon},
     {label: 'Age', text: '31', Icon: CalendarIcon},
