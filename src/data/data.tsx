@@ -190,19 +190,19 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Cloud',
     skills: [
       {
-        name: 'React Native',
+        name: 'AWS',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Azure',
+        level: 9,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'GCP',
+        level: 5,
       },
     ],
   },
@@ -287,49 +287,79 @@ export const education: TimelineItem[] = [
   {
     date: '2014-2017',
     location: 'Czech Technical University in Prague',
-    title: "Master's Degree",
-    content: <>Knowledge Engineering</>,
+    title: "Master of Science in Informatics",
+    content: <>Study Field: Knowledge Engineering; Main Topics: Pattern Recognition, Data Mining Algorithms, Data Preprocessing, Enterprise Data Warehouse Systems, Parallel Algorithms
+               <br></br>Master’s Thesis: “Time Series Classification with Artificial Neural Networks” (B/1.5)</>,
   },
   {
-    date: '2016',
+    date: '05/2016-09/2016',
     location: 'University of Waterloo',
     title: 'Exchange semester',
-    content: <>Artificial Intelligence</>,
+    content: <>Main topics: Artificial Intelligence, Forecasting</>,
   },
   {
-    date: '2014',
+    date: '08/2014-01/2015',
     location: 'TalTech – Tallinn University of Technology',
     title: 'Erasmus programme',
-    content: <>Computer Science</>,
+    content: <>Main topics: Robotics, Malware, Analysis of Programming Languages</>,
   },
   {
     date: '2011-2014',
     location: 'Czech Technical University in Prague',
-    title: "Bachelor's Degree",
-    content: <>Computer Science</>,
+    title: "Bachelor of Science in Informatics",
+    content: <>Study Field: Computer Science; Main Topics: Programming Languages and Compilers, Algorithms, Operating Systems, Database Systems, Security, Artificial Intelligence
+               <br></br>Bachelor’s Thesis: “Simulation of a Quantum Particle on a Twisted 2D Waveguide” (B/1.5)</>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'November 2017 - November 2022',
+    location: 'Qimia GmbH',
+    title: 'Data Scientist',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Working on many interesting data science, data engineering and machine learning projects either internally, or for various large and small German and American companies.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'July 2017 - October 2017',
+    location: 'Czech Technical University in Prague',
+    title: 'Research Scientist',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Comparing various architectures of artificial neural networks (convolutional neural networks, long short-term memory neural networks, and gated recurrent units) on a set of time series classification data sets in terms of the ability to learn, the effectivity of the training process, and the classification performance.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2015 - October 2016',
+    location: 'Mibcon a.s.',
+    title: 'Java & JavaScript Developer',
+    content: (
+      <p>
+        Programming SAP portal applications in Java, AngularJS and HTML for a web portal for ČEZ Distribuce, a.s.
+      </p>
+    ),
+  },
+  {
+    date: 'April 2013 - October 2017',
+    location: 'Charles University in Prague',
+    title: 'Network Administrator',
+    content: (
+      <p>
+        Maintenance of computers and other technical devices at the Institute of Immunology and Microbiology.
+      </p>
+    ),
+  },
+  {
+    date: 'September 2013 - June 2014',
+    location: 'The National Institute of Public Health',
+    title: 'Bioinformatics Analyst',
+    content: (
+      <p>
+        Extracting information from rRNA using various bioinformatics software.
       </p>
     ),
   },
@@ -341,8 +371,8 @@ export const experience: TimelineItem[] = [
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: "Let's chat!",
+  headerText: "Let's chat!",
+  description: "",
   items: [
     {
       type: ContactType.Email,
