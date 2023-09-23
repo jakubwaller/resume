@@ -24,7 +24,7 @@ import porfolioImage7 from '../images/portfolio/portfolio-7.png';
 import porfolioImage8 from '../images/portfolio/portfolio-8.png';
 import porfolioImage9 from '../images/portfolio/portfolio-9.png';
 import porfolioImage10 from '../images/portfolio/portfolio-10.png';
-import porfolioImage11 from '../images/portfolio/budgetbot.gif';
+import porfolioImage11 from '../images/portfolio/portfolio-11.gif';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
