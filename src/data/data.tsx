@@ -19,12 +19,12 @@ import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.png';
 import porfolioImage5 from '../images/portfolio/portfolio-5.png';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.png';
 import porfolioImage7 from '../images/portfolio/portfolio-7.png';
 import porfolioImage8 from '../images/portfolio/portfolio-8.png';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage9 from '../images/portfolio/portfolio-9.png';
+import porfolioImage10 from '../images/portfolio/portfolio-10.png';
+import porfolioImage11 from '../images/portfolio/budgetbot.gif';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -148,44 +148,40 @@ export const skills: SkillGroup[] = [
       {
         name: 'German',
         level: 8,
-      },
-      {
-        name: 'Spanish',
-        level: 1,
       }
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Data Science',
     skills: [
       {
-        name: 'React',
+        name: 'Python',
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'SQL',
+        level: 9,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Spark',
+        level: 9,
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Machine Learning',
     skills: [
       {
-        name: 'Node.js',
+        name: 'xgboost',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'scikit-learn',
+        level: 8,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'metaflow+mlflow',
+        level: 6,
       },
     ],
   },
@@ -202,7 +198,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'GCP',
-        level: 5,
+        level: 6,
       },
     ],
   },
@@ -243,9 +239,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Dog Bot',
+    description: 'This Telegram DogBot can send images/gifs of dogs on request. Either randomly or by breed.',
+    url: 'https://github.com/jakubwaller/dogbot',
     image: porfolioImage6,
   },
   {
@@ -261,21 +257,21 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage8,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Resume',
+    description: "Who doesn't like recursion",
+    url: 'https://github.com/jakubwaller/resume',
     image: porfolioImage9,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Twitter Bot Tutorial',
+    description: 'Learn how to create a Twitter Bot in 15 minutes.',
+    url: 'https://github.com/jakubwaller/twitter-bot-tutorial',
     image: porfolioImage10,
   },
   {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Budget Bot',
+    description: 'This Telegram Bot keeps track of your budget.',
+    url: 'https://github.com/jakubwaller/budgetbot',
     image: porfolioImage11,
   },
 ];
@@ -324,7 +320,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'July 2017 - October 2017',
+    date: 'February 2017 - October 2017',
     location: 'Czech Technical University in Prague',
     title: 'Research Scientist',
     content: (
