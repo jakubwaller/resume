@@ -209,34 +209,16 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
     title: 'Probable Futures Bot',
     description: "Probable Futures Bot is a Telegram Bot that is connected to the Probable Futures API and sends Probable Future scenarios for either an address or a location.",
     url: 'https://github.com/jakubwaller/probable-futures-bot',
     image: porfolioImage4,
   },
   {
-    title: 'Cat Bot',
-    description: 'This Telegram CatBot can send images/gifs of cats on request. Either randomly or by breed.',
-    url: 'https://github.com/jakubwaller/catbot',
-    image: porfolioImage5,
+    title: 'Budget Bot',
+    description: 'This Telegram Bot keeps track of your budget.',
+    url: 'https://github.com/jakubwaller/budgetbot',
+    image: porfolioImage11,
   },
   {
     title: 'Dog Bot',
@@ -269,10 +251,10 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage10,
   },
   {
-    title: 'Budget Bot',
-    description: 'This Telegram Bot keeps track of your budget.',
-    url: 'https://github.com/jakubwaller/budgetbot',
-    image: porfolioImage11,
+    title: 'Cat Bot',
+    description: 'This Telegram CatBot can send images/gifs of cats on request. Either randomly or by breed.',
+    url: 'https://github.com/jakubwaller/catbot',
+    image: porfolioImage5,
   },
 ];
 
