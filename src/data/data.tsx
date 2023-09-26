@@ -14,7 +14,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header.png';
-import porfolioImage4 from '../images/portfolio/portfolio-4.png';
+import porfolioImage4 from '../images/portfolio/portfolio-4.gif';
 import porfolioImage5 from '../images/portfolio/portfolio-5.png';
 import porfolioImage6 from '../images/portfolio/portfolio-6.png';
 import porfolioImage7 from '../images/portfolio/portfolio-7.png';
@@ -218,6 +218,12 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage11,
   },
   {
+    title: 'Twitter Bot Tutorial',
+    description: 'Learn how to create a Twitter Bot in 15 minutes.',
+    url: 'https://github.com/jakubwaller/twitter-bot-tutorial',
+    image: porfolioImage10,
+  },
+  {
     title: 'Dog Bot',
     description: 'This Telegram DogBot can send images/gifs of dogs on request. Either randomly or by breed.',
     url: 'https://github.com/jakubwaller/dogbot',
@@ -240,12 +246,6 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Who doesn't like recursion",
     url: 'https://github.com/jakubwaller/resume',
     image: porfolioImage9,
-  },
-  {
-    title: 'Twitter Bot Tutorial',
-    description: 'Learn how to create a Twitter Bot in 15 minutes.',
-    url: 'https://github.com/jakubwaller/twitter-bot-tutorial',
-    image: porfolioImage10,
   },
   {
     title: 'Cat Bot',
