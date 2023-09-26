@@ -14,7 +14,8 @@ const Portfolio: FC = memo(() => {
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
         <h2 className="self-center text-xl font-bold text-white">What I'm playing with in my free time</h2>
-        <div className=" w-full columns-2 md:columns-3 lg:columns-3">
+        <div className="self-center text text-white">(My professional projects you will find in the resume pdf linked in the top section.)</div>
+        <div className=" w-full columns-1 md:columns-2 lg:columns-2">
           {portfolioItems.map((item, index) => {
             const {title, image} = item;
             return (
