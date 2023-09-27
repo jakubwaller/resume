@@ -14,11 +14,12 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header.png';
+import porfolioImage1 from '../images/portfolio/portfolio-1.gif';
 import porfolioImage4 from '../images/portfolio/portfolio-4.gif';
 import porfolioImage5 from '../images/portfolio/portfolio-5.png';
 import porfolioImage6 from '../images/portfolio/portfolio-6.png';
-import porfolioImage7 from '../images/portfolio/portfolio-7.png';
-import porfolioImage8 from '../images/portfolio/portfolio-8.png';
+import porfolioImage7 from '../images/portfolio/portfolio-7.gif';
+import porfolioImage8 from '../images/portfolio/portfolio-8.gif';
 import porfolioImage9 from '../images/portfolio/portfolio-9.png';
 import porfolioImage10 from '../images/portfolio/portfolio-10.png';
 import porfolioImage11 from '../images/portfolio/portfolio-11.gif';
@@ -210,16 +211,16 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage4,
   },
   {
+    title: 'Strava Bot',
+    description: 'Strava Bot sends you detailed statistics, graphs and maps after every ride/run/hike.',
+    url: 'https://github.com/jakubwaller/stravabot',
+    image: porfolioImage1,
+  },
+  {
     title: 'Budget Bot',
     description: 'This Telegram Bot keeps track of your budget.',
     url: 'https://github.com/jakubwaller/budgetbot',
     image: porfolioImage11,
-  },
-  {
-    title: 'Twitter Bot Tutorial',
-    description: 'Learn how to create a Twitter Bot in 15 minutes.',
-    url: 'https://github.com/jakubwaller/twitter-bot-tutorial',
-    image: porfolioImage10,
   },
   {
     title: 'Dog Bot',
@@ -240,16 +241,22 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage8,
   },
   {
-    title: 'Resume',
-    description: "Who doesn't like recursion",
-    url: 'https://github.com/jakubwaller/resume',
-    image: porfolioImage9,
+    title: 'Twitter Bot Tutorial',
+    description: 'Learn how to create a Twitter Bot in 15 minutes.',
+    url: 'https://github.com/jakubwaller/twitter-bot-tutorial',
+    image: porfolioImage10,
   },
   {
     title: 'Cat Bot',
     description: 'This Telegram CatBot can send images/gifs of cats on request. Either randomly or by breed.',
     url: 'https://github.com/jakubwaller/catbot',
     image: porfolioImage5,
+  },
+  {
+    title: 'Resume',
+    description: "Who doesn't like recursion",
+    url: 'https://github.com/jakubwaller/resume',
+    image: porfolioImage9,
   },
 ];
 
