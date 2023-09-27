@@ -3,19 +3,19 @@ import {devtools} from 'zustand/middleware';
 
 import {SectionId} from './data/data';
 
-interface BearState {
+interface StoreState {
   currentSection: SectionId | null;
   setSection: (section: SectionId | null) => void;
 }
 
-export const useBearStore = create<BearState>()(
+export const useStore = create<StoreState>()(
   devtools(
     set => ({
       currentSection: null,
       setSection: section => set(_ => ({currentSection: section})),
     }),
     {
-      name: 'bear-storage',
+      name: 'app-storage',
     },
   ),
 );
