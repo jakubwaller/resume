@@ -53,7 +53,6 @@ export const SectionId = {
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
-  Stats: 'stats',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -111,7 +110,7 @@ export const aboutData: About = {
   time series classification using artificial neural networks.
   During my studies I also gained practical experience,
   where the most significant is a cooperation with Datamole, s.r.o. on the above mentioned thesis
-  and one data mining project for a Dutch company and with Mibcon a.s. programming SAP portal applications in Java,
+  and one data mining project and with Mibcon a.s. programming SAP portal applications in Java,
   AngularJS and HTML.
   <br></br>
   I have gained other valuable experience during two semesters at the Tallinn University of Technology, Estonia
@@ -348,7 +347,7 @@ export const certificates: TimelineItem[] = [
     location: 'Kaggle',
     title: 'Data Visualization',
     content: (
-      <a class="hover:text-black" href="https://www.kaggle.com/learn/certification/jakubwaller/data-visualization">
+      <a className="hover:text-black" href="https://www.kaggle.com/learn/certification/jakubwaller/data-visualization">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
@@ -358,7 +357,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Deploying Machine Learning Models in Production',
     content: (
-      <a class="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/53REXCQ5PHHX">
+      <a className="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/53REXCQ5PHHX">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
@@ -368,7 +367,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Engineering for Production (MLOps)',
     content: (
-      <a class="hover:text-black" href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZM4TB7LFHRFA">
+      <a className="hover:text-black" href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZM4TB7LFHRFA">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
@@ -378,7 +377,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Modeling Pipelines in Production',
     content: (
-      <a class="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/XST476L3DT42">
+      <a className="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/XST476L3DT42">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
@@ -388,7 +387,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Data Lifecycle in Production',
     content: (
-      <a class="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/5SGQK7P4T73Z">
+      <a className="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/5SGQK7P4T73Z">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
@@ -398,7 +397,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Introduction to Machine Learning in Production',
     content: (
-      <a class="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/94AA8LVBEA3G">
+      <a className="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/94AA8LVBEA3G">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
