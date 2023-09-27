@@ -5,13 +5,13 @@ import Link from 'next/link';
 import {FC, Fragment, memo, useCallback, useMemo, useState} from 'react';
 
 import {SectionId} from '../../data/data';
-import {useBearStore} from '../../store';
+import {useStore} from '../../store';
 
 export const headerID = 'headerNav';
 
 const Header: FC = memo(() => {
   const navSections = useMemo(() => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Contact], []);
-  const {currentSection} = useBearStore();
+  const {currentSection} = useStore();
 
   return (
     <>

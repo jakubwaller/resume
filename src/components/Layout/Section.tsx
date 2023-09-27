@@ -3,12 +3,12 @@ import {FC, memo, PropsWithChildren, useCallback} from 'react';
 import {InView} from 'react-intersection-observer';
 
 import {SectionId} from '../../data/data';
-import {useBearStore} from '../../store';
+import {useStore} from '../../store';
 
 const Section: FC<
   PropsWithChildren<{sectionId: SectionId; sectionTitle?: string; noPadding?: boolean; className?: string}>
 > = memo(({children, sectionId, noPadding = false, className}) => {
-  const {setSection} = useBearStore();
+  const {setSection} = useStore();
 
   const handleOnChange = useCallback(
     (visible: boolean, _: IntersectionObserverEntry) => {
