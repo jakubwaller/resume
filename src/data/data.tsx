@@ -342,6 +342,80 @@ export const experience: TimelineItem[] = [
 ];
 
 
+export const certificates: TimelineItem[] = [
+  {
+    date: 'November 2022',
+    location: 'Kaggle',
+    title: 'Data Visualization',
+    content: (
+      <a class="hover:text-black" href="https://www.kaggle.com/learn/certification/jakubwaller/data-visualization">
+        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      </a>
+    ),
+  },
+  {
+    date: 'July 2022',
+    location: 'Coursera',
+    title: 'Deploying Machine Learning Models in Production',
+    content: (
+      <a class="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/53REXCQ5PHHX">
+        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      </a>
+    ),
+  },
+  {
+    date: 'July 2022',
+    location: 'Coursera',
+    title: 'Machine Learning Engineering for Production (MLOps)',
+    content: (
+      <a class="hover:text-black" href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZM4TB7LFHRFA">
+        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      </a>
+    ),
+  },
+  {
+    date: 'April 2022',
+    location: 'Coursera',
+    title: 'Machine Learning Modeling Pipelines in Production',
+    content: (
+      <a class="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/XST476L3DT42">
+        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      </a>
+    ),
+  },
+  {
+    date: 'November 2021',
+    location: 'Coursera',
+    title: 'Machine Learning Data Lifecycle in Production',
+    content: (
+      <a class="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/5SGQK7P4T73Z">
+        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      </a>
+    ),
+  },
+  {
+    date: 'August 2021',
+    location: 'Coursera',
+    title: 'Introduction to Machine Learning in Production',
+    content: (
+      <a class="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/94AA8LVBEA3G">
+        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      </a>
+    ),
+  },
+  {
+    date: 'May 2021',
+    location: 'Microsoft',
+    title: 'Microsoft Certified: Azure AI Fundamentals',
+    content: (
+      <>
+        Course Certificate ID: H828-3446
+      </>
+    ),
+  },
+];
+
+
 /**
  * Contact section
  */
