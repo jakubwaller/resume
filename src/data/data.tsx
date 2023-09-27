@@ -82,7 +82,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/jakubwaller_resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -101,8 +101,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: <p className="prose prose-sm text-gray-300 sm:prose-base">For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
-  on a number of various projects involving Data Science, Machine Learning and Big Data topics
-  using a wide range of technologies.
+  on various projects involving Data Science, Machine Learning and Data Engineering topics using a wide range of technologies.
   <br></br>
   Then I took a year off to travel around our beautiful Planet A.
   After returning, I knew that I want to dedicate my career not only to data, but to climate and data.
@@ -112,7 +111,7 @@ export const aboutData: About = {
   time series classification using artificial neural networks.
   During my studies I also gained practical experience,
   where the most significant is a cooperation with Datamole, s.r.o. on the above mentioned thesis
-  and one data mining project and with Mibcon a.s. programming SAP portal applications in Java,
+  and one data mining project for a Dutch company and with Mibcon a.s. programming SAP portal applications in Java,
   AngularJS and HTML.
   <br></br>
   I have gained other valuable experience during two semesters at the Tallinn University of Technology, Estonia
@@ -263,7 +262,8 @@ export const education: TimelineItem[] = [
     date: '2014-2017',
     location: 'Czech Technical University in Prague',
     title: "Master of Science in Informatics",
-    content: <>Study Field: Knowledge Engineering; Main Topics: Pattern Recognition, Data Mining Algorithms, Data Preprocessing, Enterprise Data Warehouse Systems, Parallel Algorithms
+    content: <>Study Field: Knowledge Engineering
+               <br></br>Main Topics: Pattern Recognition, Data Mining Algorithms, Data Preprocessing, Enterprise Data Warehouse Systems, Parallel Algorithms
                <br></br>Master’s Thesis: “Time Series Classification with Artificial Neural Networks” (B/1.5)</>,
   },
   {
@@ -282,7 +282,8 @@ export const education: TimelineItem[] = [
     date: '2011-2014',
     location: 'Czech Technical University in Prague',
     title: "Bachelor of Science in Informatics",
-    content: <>Study Field: Computer Science; Main Topics: Programming Languages and Compilers, Algorithms, Operating Systems, Database Systems, Security, Artificial Intelligence
+    content: <>Study Field: Computer Science
+               <br></br>Main Topics: Programming Languages and Compilers, Algorithms, Operating Systems, Database Systems, Security, Artificial Intelligence
                <br></br>Bachelor’s Thesis: “Simulation of a Quantum Particle on a Twisted 2D Waveguide” (B/1.5)</>,
   },
 ];
@@ -294,7 +295,7 @@ export const experience: TimelineItem[] = [
     title: 'Data Scientist',
     content: (
       <p>
-        Working on many interesting data science, data engineering and machine learning projects either internally, or for various large and small German and American companies.
+        Working on various projects involving Data Science, Machine Learning and Data Engineering topics using a wide range of technologies.
       </p>
     ),
   },
