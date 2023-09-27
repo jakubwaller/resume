@@ -114,7 +114,7 @@ export const aboutData: About = {
   and one data mining project and with Mibcon a.s. programming SAP portal applications in Java,
   AngularJS and HTML.
   <br></br>
-  I have gained other valuable experience during two semesters at the Tallinn University of Technology, Estonia
+  I have gained other valuable experience during exchange semesters at the Tallinn University of Technology, Estonia
   and the University of Waterloo, Canada.</p>,
   aboutItems: [
     {label: 'Location', text: <>Hamburg, Germany</>, Icon: MapIcon},
