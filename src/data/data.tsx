@@ -74,7 +74,8 @@ export const heroData: Hero = {
         In my free time time, you can catch me travelling the <strong className="text-stone-100">Planet A</strong>,
         cycling so that I win the Strava competition organised by
         my <strong className="text-stone-100">Strava Telegram Bot</strong> against my friends,
-        building more Telegram bots such as the <strong className="text-stone-100">Probable Futures Bot</strong>,
+        building more Telegram bots such as the <strong className="text-stone-100">Probable Futures Bot</strong> and
+        the <strong className="text-stone-100">Leipzig Appointments Bot</strong>,
         reading a <strong className="text-stone-100">good book</strong>,
         or playing the <strong className="text-stone-100">guitar</strong>.
       </p>
@@ -169,15 +170,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'xgboost',
-        level: 8,
+        level: 9,
       },
       {
         name: 'scikit-learn',
-        level: 8,
+        level: 9,
       },
       {
         name: 'metaflow+mlflow',
-        level: 6,
+        level: 7,
       },
     ],
   },
@@ -194,7 +195,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'GCP',
-        level: 6,
+        level: 7,
       },
     ],
   },
