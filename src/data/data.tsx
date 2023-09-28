@@ -76,7 +76,7 @@ export const heroData: Hero = {
         my <strong className="text-stone-100">Strava Telegram Bot</strong> against my friends,
         building more Telegram bots such as the <strong className="text-stone-100">Probable Futures Bot</strong>,
         reading a <strong className="text-stone-100">good book</strong>,
-        or playing a <strong className="text-stone-100">guitar</strong>.
+        or playing the <strong className="text-stone-100">guitar</strong>.
       </p>
     </>
   ),
@@ -100,17 +100,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: <p className="prose prose-sm text-gray-300 sm:prose-base">For the past almost six years I was working as a Data Scientist/Engineer at Qimia GmbH
+  description: <p className="prose prose-sm text-gray-300 sm:prose-base">For the past six years I was working as a Data Scientist/Engineer at Qimia GmbH
   on various projects involving Data Science, Machine Learning and Data Engineering topics using a wide range of technologies.
   <br></br>
   Then I took a year off to travel around our beautiful Planet A.
-  After returning, I knew that I want to dedicate my career not only to data, but to climate and data.
+  After returning, I know that I want to dedicate my career not only to data, but to climate and data.
   <br></br>
   <br></br>
   I graduated from the Czech Technical University in Prague with a master's thesis focused on
   time series classification using artificial neural networks.
-  During my studies I also gained practical experience,
-  where the most significant is a cooperation with Datamole, s.r.o. on the above mentioned thesis
+  During my studies I also gained practical experience.
+  The most significant is a cooperation with Datamole, s.r.o. on the above mentioned thesis
   and one data mining project and with Mibcon a.s. programming SAP portal applications in Java,
   AngularJS and HTML.
   <br></br>
