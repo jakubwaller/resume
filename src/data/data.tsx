@@ -20,7 +20,7 @@ import porfolioImage5 from '../images/portfolio/portfolio-5.gif';
 import porfolioImage6 from '../images/portfolio/portfolio-6.gif';
 import porfolioImage7 from '../images/portfolio/portfolio-7.gif';
 import porfolioImage8 from '../images/portfolio/portfolio-8.gif';
-import porfolioImage9 from '../images/portfolio/portfolio-9.png';
+import porfolioImage9 from '../images/portfolio/portfolio-9.gif';
 import porfolioImage10 from '../images/portfolio/portfolio-10.gif';
 import porfolioImage11 from '../images/portfolio/portfolio-11.gif';
 import profilepic from '../images/profilepic.jpg';
