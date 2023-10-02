@@ -15,6 +15,7 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.gif';
+import porfolioImage2 from '../images/portfolio/portfolio-2.gif';
 import porfolioImage4 from '../images/portfolio/portfolio-4.gif';
 import porfolioImage5 from '../images/portfolio/portfolio-5.gif';
 import porfolioImage6 from '../images/portfolio/portfolio-6.gif';
@@ -71,12 +72,10 @@ export const heroData: Hero = {
         a job in climate. Because there is no Planet B.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me travelling the <strong className="text-stone-100">Planet A</strong>,
-        cycling so that I win the Strava competition organised by
-        my <strong className="text-stone-100">Strava Telegram Bot</strong> against my friends,
-        building more Telegram bots such as the <strong className="text-stone-100">Probable Futures Bot</strong> and
-        the <strong className="text-stone-100">Leipzig Appointments Bot</strong>,
-        reading a <strong className="text-stone-100">good book</strong>,
+        In my free time time, you can catch me <strong className="text-stone-100">cycling</strong> the Planet A,
+        exploring what happens to its climate in various warming scenarios (+1.5°, +2.0° etc) using my <strong className="text-stone-100">Probable Futures Bot</strong>,
+        trying to be a good citizen by programming <strong className="text-stone-100">Covid Vaccination Appointments Bots</strong> and the <strong className="text-stone-100">Leipzig Appointments Bot</strong>,
+        reading an <strong className="text-stone-100">interesting book</strong>,
         or playing the <strong className="text-stone-100">guitar</strong>.
       </p>
     </>
@@ -119,7 +118,7 @@ export const aboutData: About = {
   and the University of Waterloo, Canada.</p>,
   aboutItems: [
     {label: 'Location', text: <>Hamburg, Germany</>, Icon: MapIcon},
-    {label: 'Age', text: <>31</>, Icon: CalendarIcon},
+    {label: 'Age', text: <>32</>, Icon: CalendarIcon},
     {label: 'Nationality', text: <>Czech</>, Icon: FlagIcon},
     {label: 'Interests', text: <>Cycling, books, music</>, Icon: SparklesIcon},
     {label: 'Study', text: <>Czech Technical University of Prague,<br></br>University of Waterloo,<br></br>TalTech – Tallinn University of Technology</>, Icon: AcademicCapIcon},
@@ -212,28 +211,10 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage4,
   },
   {
-    title: 'Strava Bot',
-    description: 'Strava Bot sends you detailed statistics, graphs and maps after every ride/run/hike.',
-    url: 'https://github.com/jakubwaller/stravabot',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Budget Bot',
-    description: 'This Telegram Bot keeps track of your budget.',
-    url: 'https://github.com/jakubwaller/budgetbot',
-    image: porfolioImage11,
-  },
-  {
-    title: 'Dog Bot',
-    description: 'This Telegram DogBot can send images/gifs of dogs on request. Either randomly or by breed.',
-    url: 'https://github.com/jakubwaller/dogbot',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Leipzig Appointments Bot',
-    description: 'Tired of refreshing the page with available appointments at the Leipzig city office? The bot in this channel checks them for you and every minute sends available appointments.',
-    url: 'https://github.com/jakubwaller/leipzigappointmentsbot',
-    image: porfolioImage7,
+    title: 'Covid Vaccination Appointments Bot',
+    description: 'This bot was notifying users about free covid vaccination appointments in four cities: Hamburg, Leipzig, Stuttgart, and Dresden.',
+    url: 'https://t.me/coronaimpftermine_hamburg',
+    image: porfolioImage2,
   },
   {
     title: 'DALL·E Bot',
@@ -242,10 +223,33 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage8,
   },
   {
+    title: 'Dog Bot',
+    description: 'This Telegram DogBot can send images/gifs of dogs on request. Either randomly or by breed.',
+    url: 'https://github.com/jakubwaller/dogbot',
+    image: porfolioImage6,
+  },
+  {
     title: 'Twitter Bot Tutorial',
     description: 'Learn how to create a Twitter Bot in 15 minutes.',
     url: 'https://github.com/jakubwaller/twitter-bot-tutorial',
     image: porfolioImage10,
+  },
+  {
+    title: 'Leipzig Appointments Bot',
+    description: 'Tired of refreshing the page with available appointments at the Leipzig city office? The bot in this channel checks them for you and every minute sends available appointments.',
+    url: 'https://github.com/jakubwaller/leipzigappointmentsbot',
+    image: porfolioImage7,
+  },
+  {
+    title: 'Strava Bot',
+    description: 'Strava Bot sends you detailed statistics, graphs and maps after every ride/run/hike.',
+    image: porfolioImage1,
+  },
+  {
+    title: 'Budget Bot',
+    description: 'This Telegram Bot keeps track of your budget.',
+    url: 'https://github.com/jakubwaller/budgetbot',
+    image: porfolioImage11,
   },
   {
     title: 'Cat Bot',
