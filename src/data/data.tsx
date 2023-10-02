@@ -100,7 +100,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: <p className="prose prose-sm text-gray-300 sm:prose-base">For the past six years I was working as a Data Scientist/Engineer at Qimia GmbH
+  description: <p className="prose prose-sm text-gray-300 sm:prose-base">For the past five years I was working as a Data Scientist/Engineer at Qimia GmbH
   on various projects involving Data Science, Machine Learning and Data Engineering topics using a wide range of technologies.
   <br></br>
   Then I took a year off to travel around our beautiful Planet A.
@@ -243,6 +243,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Strava Bot',
     description: 'Strava Bot sends you detailed statistics, graphs and maps after every ride/run/hike.',
+    url: '',
     image: porfolioImage1,
   },
   {
