@@ -68,15 +68,15 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Hamburg based <a href="https://github.com/jakubwaller" className="font-bold hover:text-orange-500 text-stone-100">Data Scientist</a>, currently looking for
+        I'm a Hamburg based <a className="font-bold hover:text-orange-500 text-stone-100" href="https://github.com/jakubwaller">Data Scientist</a>, currently looking for
         a job in climate. Because there is no Planet B.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me <a href="https://www.strava.com/athletes/22414933" className="font-bold hover:text-orange-500 text-stone-100">cycling</a> the Planet A,
-        exploring what happens to its climate in various warming scenarios (+1.5°, +2.0° etc) using my <a href="https://t.me/ProbableFuturesBot" className="font-bold hover:text-orange-500 text-stone-100">Probable Futures Bot</a>,
-        trying to be a good citizen by programming <a href="https://t.me/coronaimpftermine_hamburg" className="font-bold hover:text-orange-500 text-stone-100">Covid Vaccination Appointments Bots</a> and the <a href="https://t.me/leipzig_appointments" className="font-bold hover:text-orange-500 text-stone-100">Leipzig Appointments Bot</a>,
-        reading an <a href="https://www.goodreads.com/user/show/121850617-jakub" className="font-bold hover:text-orange-500 text-stone-100">interesting book</a>,
-        or playing the <a href="https://open.spotify.com/album/693WL6HmksSvOJv7pEbsDt?si=ay_RBOGuQeacbq5WaDa-qA" className="font-bold hover:text-orange-500 text-stone-100">guitar</a>.
+        In my free time time, you can catch me <a className="font-bold hover:text-orange-500 text-stone-100" href="https://www.strava.com/athletes/22414933">cycling</a> the Planet A,
+        exploring what happens to its climate in various warming scenarios (+1.5°, +2.0° etc) using my <a className="font-bold hover:text-orange-500 text-stone-100" href="https://t.me/ProbableFuturesBot">Probable Futures Bot</a>,
+        trying to be a good citizen by programming <a className="font-bold hover:text-orange-500 text-stone-100" href="https://t.me/coronaimpftermine_hamburg">Covid Vaccination Appointments Bots</a> and the <a className="font-bold hover:text-orange-500 text-stone-100" href="https://t.me/leipzig_appointments">Leipzig Appointments Bot</a>,
+        reading an <a className="font-bold hover:text-orange-500 text-stone-100" href="https://www.goodreads.com/user/show/121850617-jakub">interesting book</a>,
+        or playing the <a className="font-bold hover:text-orange-500 text-stone-100" href="https://open.spotify.com/album/693WL6HmksSvOJv7pEbsDt?si=ay_RBOGuQeacbq5WaDa-qA">guitar</a>.
       </p>
     </>
   ),
