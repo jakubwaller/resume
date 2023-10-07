@@ -68,15 +68,15 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Hamburg based <strong className="text-stone-100">Data Scientist</strong>, currently looking for
+        I'm a Hamburg based <a href="https://github.com/jakubwaller" className="text-stone-100 hover:text-orange-500 font-bold">Data Scientist</a>, currently looking for
         a job in climate. Because there is no Planet B.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me <strong className="text-stone-100">cycling</strong> the Planet A,
-        exploring what happens to its climate in various warming scenarios (+1.5°, +2.0° etc) using my <strong className="text-stone-100">Probable Futures Bot</strong>,
-        trying to be a good citizen by programming <strong className="text-stone-100">Covid Vaccination Appointments Bots</strong> and the <strong className="text-stone-100">Leipzig Appointments Bot</strong>,
-        reading an <strong className="text-stone-100">interesting book</strong>,
-        or playing the <strong className="text-stone-100">guitar</strong>.
+        In my free time time, you can catch me <a href="https://www.strava.com/athletes/22414933" className="text-stone-100 hover:text-orange-500 font-bold">cycling</a> the Planet A,
+        exploring what happens to its climate in various warming scenarios (+1.5°, +2.0° etc) using my <a href="https://t.me/ProbableFuturesBot" className="text-stone-100 hover:text-orange-500 font-bold">Probable Futures Bot</a>,
+        trying to be a good citizen by programming <a href="https://t.me/coronaimpftermine_hamburg" className="text-stone-100 hover:text-orange-500 font-bold">Covid Vaccination Appointments Bots</a> and the <a href="https://t.me/leipzig_appointments" className="text-stone-100 hover:text-orange-500 font-bold">Leipzig Appointments Bot</a>,
+        reading an <a href="https://www.goodreads.com/user/show/121850617-jakub" className="text-stone-100 hover:text-orange-500 font-bold">interesting book</a>,
+        or playing the <a href="https://open.spotify.com/album/693WL6HmksSvOJv7pEbsDt?si=ay_RBOGuQeacbq5WaDa-qA" className="text-stone-100 hover:text-orange-500 font-bold">guitar</a>.
       </p>
     </>
   ),
@@ -168,7 +168,7 @@ export const skills: SkillGroup[] = [
     name: 'Machine Learning',
     skills: [
       {
-        name: 'xgboost',
+        name: 'XGBoost',
         level: 9,
       },
       {
@@ -176,7 +176,7 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'metaflow+mlflow',
+        name: 'Metaflow+MLflow',
         level: 7,
       },
     ],
@@ -360,7 +360,7 @@ export const certificates: TimelineItem[] = [
     location: 'Kaggle',
     title: 'Data Visualization',
     content: (
-      <a className="hover:text-black" href="https://www.kaggle.com/learn/certification/jakubwaller/data-visualization">
+      <a className="hover:text-orange-500" href="https://www.kaggle.com/learn/certification/jakubwaller/data-visualization">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
@@ -370,7 +370,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Deploying Machine Learning Models in Production',
     content: (
-      <a className="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/53REXCQ5PHHX">
+      <a className="hover:text-orange-500" href="https://www.coursera.org/account/accomplishments/certificate/53REXCQ5PHHX">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
@@ -380,7 +380,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Engineering for Production (MLOps)',
     content: (
-      <a className="hover:text-black" href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZM4TB7LFHRFA">
+      <a className="hover:text-orange-500" href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZM4TB7LFHRFA">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
@@ -390,7 +390,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Modeling Pipelines in Production',
     content: (
-      <a className="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/XST476L3DT42">
+      <a className="hover:text-orange-500" href="https://www.coursera.org/account/accomplishments/certificate/XST476L3DT42">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
@@ -400,7 +400,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Data Lifecycle in Production',
     content: (
-      <a className="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/5SGQK7P4T73Z">
+      <a className="hover:text-orange-500" href="https://www.coursera.org/account/accomplishments/certificate/5SGQK7P4T73Z">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
@@ -410,7 +410,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Introduction to Machine Learning in Production',
     content: (
-      <a className="hover:text-black" href="https://www.coursera.org/account/accomplishments/certificate/94AA8LVBEA3G">
+      <a className="hover:text-orange-500" href="https://www.coursera.org/account/accomplishments/certificate/94AA8LVBEA3G">
         <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
       </a>
     ),
