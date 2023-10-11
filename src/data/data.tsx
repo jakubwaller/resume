@@ -356,6 +356,16 @@ export const experience: TimelineItem[] = [
 
 export const certificates: TimelineItem[] = [
   {
+    date: 'October 2023',
+    location: 'DeepLearning.AI',
+    title: 'ChatGPT Prompt Engineering for Developers',
+    content: (
+      <a className="hover:text-orange-500" href="https://learn.deeplearning.ai/chatgpt-prompt-eng">
+        <li className="col-span-1 flex  items-start gap-x-2"><span>Course URL</span></li>
+      </a>
+    ),
+  },
+  {
     date: 'November 2022',
     location: 'Kaggle',
     title: 'Data Visualization',
