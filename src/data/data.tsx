@@ -243,7 +243,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Strava Bot',
     description: 'Strava Bot sends you detailed statistics, graphs and maps after every ride/run/hike.',
-    url: '',
+    url: 'https://github.com/jakubwaller/strava-data-analysis',
     image: porfolioImage1,
   },
   {
