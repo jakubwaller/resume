@@ -357,6 +357,26 @@ export const experience: TimelineItem[] = [
 export const certificates: TimelineItem[] = [
   {
     date: 'October 2023',
+    location: 'LinkedIn Learning',
+    title: '34 Things to Know about Carbon and Climate',
+    content: (
+      <a className="hover:text-orange-500" href="https://www.linkedin.com/learning/certificates/ad65c2c4c6ad87bc476f8308bf3185805aa8a70071438cc6f0fde85b76a4c168?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D">
+        <li className="col-span-1 flex  items-start gap-x-2"><span>Course URL</span></li>
+      </a>
+    ),
+  },
+  {
+    date: 'October 2023',
+    location: 'LinkedIn Learning',
+    title: 'How to Get a Job in Climate',
+    content: (
+      <a className="hover:text-orange-500" href="https://www.linkedin.com/learning/certificates/9c290adfe6810e8beeb79a99b78df0375d6d3f0c3636c9b7a053495641d79bd1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D">
+        <li className="col-span-1 flex  items-start gap-x-2"><span>Course URL</span></li>
+      </a>
+    ),
+  },
+  {
+    date: 'October 2023',
     location: 'DeepLearning.AI',
     title: 'ChatGPT Prompt Engineering for Developers',
     content: (
