@@ -68,8 +68,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Hamburg-based <a className="font-bold hover:text-orange-500 text-stone-100" href="https://github.com/jakubwaller">Data Scientist</a>, currently looking for
-        a job in climate. Because there is no Planet B.
+        I'm a Hamburg-based <a className="font-bold hover:text-orange-500 text-stone-100" href="https://github.com/jakubwaller">Data Scientist</a>,
+        working in climate, at <a className="font-bold hover:text-orange-500 text-stone-100" href="https://www.shipzero.com">shipzero</a>. Because there is no Planet B.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me <a className="font-bold hover:text-orange-500 text-stone-100" href="https://www.strava.com/athletes/22414933">cycling</a> Planet A,
@@ -122,7 +122,7 @@ export const aboutData: About = {
     {label: 'Nationality', text: <>Czech</>, Icon: FlagIcon},
     {label: 'Interests', text: <>Cycling, books, music</>, Icon: SparklesIcon},
     {label: 'Study', text: <>Czech Technical University of Prague,<br></br>University of Waterloo,<br></br>TalTech – Tallinn University of Technology</>, Icon: AcademicCapIcon},
-    {label: 'Employment', text: <>Loading...</>, Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: <>shipzero</>, Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -301,6 +301,16 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+  {
+    date: 'January 2024',
+    location: 'shipzero',
+    title: 'Data Scientist',
+    content: (
+      <p>
+        Decarbonising supply chains.
+      </p>
+    ),
+  },
   {
     date: 'November 2017 - November 2022',
     location: 'Qimia GmbH',
