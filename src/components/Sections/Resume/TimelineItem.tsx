@@ -5,16 +5,19 @@ import {TimelineItem} from '../../../data/dataDef';
 const TimelineItem: FC<{item: TimelineItem}> = memo(({item}) => {
   const {title, date, location, content} = item;
   return (
-    <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
-      <div className="flex flex-col pb-4">
-        <h2 className="text-xl font-bold">{title}</h2>
-        <div className="flex items-center justify-center gap-x-2 md:justify-start">
-          <span className="flex-1 text-sm font-medium italic sm:flex-none">{location}</span>
-          <span>•</span>
-          <span className="flex-1 text-sm sm:flex-none">{date}</span>
+    <div className="group relative">
+      <span className="absolute -left-[25px] top-2 h-2 w-2 rounded-full bg-ink-700 ring-4 ring-ink-950 transition-colors group-hover:bg-brand-400" />
+      <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-white/[0.04] to-transparent p-5 shadow-bento transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-500/30">
+        <div className="flex flex-col gap-y-1">
+          <h3 className="text-lg font-semibold text-white">{title}</h3>
+          <div className="flex flex-wrap items-center gap-x-2 text-sm text-ink-400">
+            <span className="font-medium text-ink-200">{location}</span>
+            <span className="text-ink-600">•</span>
+            <span className="font-mono text-xs">{date}</span>
+          </div>
         </div>
+        <div className="mt-3 text-sm leading-relaxed text-ink-300">{content}</div>
       </div>
-      {content}
     </div>
   );
 });

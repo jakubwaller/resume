@@ -11,25 +11,26 @@ import Section from '../Layout/Section';
 
 const Portfolio: FC = memo(() => {
   return (
-    <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
-      <div className="flex flex-col gap-y-8">
-        <h2 className="self-center text-xl font-bold text-white">What I'm playing with in my free time</h2>
-        <div className=" w-full columns-1 md:columns-2 lg:columns-2">
-          {portfolioItems.map((item, index) => {
-            const {title, image} = item;
-            return (
-              <div className="pb-6" key={`${title}-${index}`}>
-                <div
-                  className={classNames(
-                    'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
-                  )}>
-                  <Image alt={title} className="h-full w-full" src={image} unoptimized={true}/>
-                  <ItemOverlay item={item} />
-                </div>
-              </div>
-            );
-          })}
-        </div>
+    <Section className="relative bg-ink-950" sectionId={SectionId.Portfolio}>
+      <div className="pointer-events-none absolute inset-0 bg-grid-zinc bg-grid opacity-20 [mask-image:radial-gradient(ellipse_at_top,black,transparent_75%)]" />
+
+      <div className="relative flex flex-col gap-y-3 pb-10">
+        <span className="inline-flex w-fit items-center gap-x-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-widest text-ink-300">
+          <span className="h-1 w-1 rounded-full bg-brand-400" />
+          Portfolio
+        </span>
+        <h2 className="text-balance font-sans text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+          Side projects<span className="font-display italic text-brand-400"> &amp; </span>tinkering.
+        </h2>
+        <p className="max-w-xl text-sm text-ink-400">
+          A small collection of bots, tools and weekend builds — mostly Python, mostly on Telegram, mostly for fun.
+        </p>
+      </div>
+
+      <div className="relative grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {portfolioItems.map((item, index) => (
+          <PortfolioCard item={item} key={`${item.title}-${index}`} />
+        ))}
       </div>
     </Section>
   );
@@ -38,13 +39,13 @@ const Portfolio: FC = memo(() => {
 Portfolio.displayName = 'Portfolio';
 export default Portfolio;
 
-const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, description}}) => {
+const PortfolioCard: FC<{item: PortfolioItem}> = memo(({item}) => {
+  const {url, title, description, image} = item;
   const [mobile, setMobile] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
   const linkRef = useRef<HTMLAnchorElement>(null);
 
   useEffect(() => {
-    // Avoid hydration styling errors by setting mobile in useEffect
     if (isMobile) {
       setMobile(true);
     }
@@ -55,7 +56,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
     (event: MouseEvent<HTMLElement>) => {
       if (mobile && !showOverlay) {
         event.preventDefault();
-        setShowOverlay(!showOverlay);
+        setShowOverlay(true);
       }
     },
     [mobile, showOverlay],
@@ -63,22 +64,37 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
 
   return (
     <a
-      className={classNames(
-        'absolute inset-0 h-full w-full  bg-gray-900 transition-all duration-300',
-        {'opacity-0 hover:opacity-80': !mobile},
-        showOverlay ? 'opacity-80' : 'opacity-0',
-      )}
+      className="group relative block overflow-hidden rounded-2xl border border-white/10 bg-ink-900 shadow-bento transition-all duration-300 hover:-translate-y-1 hover:border-brand-500/40 hover:shadow-glow focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400"
       href={url}
       onClick={handleItemClick}
       ref={linkRef}
+      rel="noreferrer"
       target="_blank">
-      <div className="relative h-full w-full p-4">
-        <div className="flex h-full w-full flex-col gap-y-2 overflow-y-auto overscroll-contain">
-          <h2 className="text-center font-bold text-white opacity-100">{title}</h2>
-          <p className="text-xs text-white opacity-100 sm:text-sm">{description}</p>
+      <div className="relative aspect-[4/3] w-full overflow-hidden">
+        <Image
+          alt={title}
+          className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+          src={image}
+          unoptimized
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/30 to-transparent" />
+      </div>
+      <div className="flex items-start justify-between gap-3 p-4">
+        <div className="flex flex-col gap-y-1">
+          <h3 className="text-sm font-semibold text-white transition-colors group-hover:text-brand-400">
+            {title}
+          </h3>
+          <p
+            className={classNames(
+              'text-xs leading-relaxed text-ink-400 transition-all duration-300',
+              showOverlay || !mobile ? 'line-clamp-3' : 'line-clamp-2',
+            )}>
+            {description}
+          </p>
         </div>
-        <ArrowTopRightOnSquareIcon className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" />
+        <ArrowTopRightOnSquareIcon className="mt-0.5 h-4 w-4 shrink-0 text-ink-500 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand-400" />
       </div>
     </a>
   );
 });
+PortfolioCard.displayName = 'PortfolioCard';

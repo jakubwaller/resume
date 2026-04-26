@@ -12,7 +12,6 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.gif';
 import porfolioImage2 from '../images/portfolio/portfolio-2.gif';
@@ -22,7 +21,6 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.gif';
 import porfolioImage7 from '../images/portfolio/portfolio-7.gif';
 import porfolioImage8 from '../images/portfolio/portfolio-8.gif';
 import porfolioImage9 from '../images/portfolio/portfolio-9.gif';
-import porfolioImage10 from '../images/portfolio/portfolio-10.gif';
 import porfolioImage11 from '../images/portfolio/portfolio-11.gif';
 import profilepic from '../images/profilepic.jpg';
 import {
@@ -67,16 +65,16 @@ export const heroData: Hero = {
   name: `I'm Jakub Waller.`,
   description: (
     <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Hamburg-based <a className="font-bold hover:text-orange-500 text-stone-100" href="https://github.com/jakubwaller">Data Scientist</a>,
-        working in climate, at <a className="font-bold hover:text-orange-500 text-stone-100" href="https://www.shipzero.com">shipzero</a>. Because there is no Planet B.
+      <p className="prose-sm text-ink-200 sm:prose-base lg:prose-lg">
+        I'm a Hamburg-based <a className="font-semibold text-white underline decoration-brand-500/50 underline-offset-4 transition-colors hover:text-brand-400 hover:decoration-brand-400" href="https://github.com/jakubwaller">Data Scientist</a>,
+        working in climate, at <a className="font-semibold text-white underline decoration-emerald-500/50 underline-offset-4 transition-colors hover:text-emerald-300 hover:decoration-emerald-400" href="https://www.shipzero.com">shipzero</a>. Because there is no Planet B.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me <a className="font-bold hover:text-orange-500 text-stone-100" href="https://www.strava.com/athletes/22414933">cycling</a> Planet A,
-        exploring what happens to its climate in various warming scenarios (+1.5°, +2.0° etc) using my <a className="font-bold hover:text-orange-500 text-stone-100" href="https://t.me/ProbableFuturesBot">Probable Futures Bot</a>,
-        trying to be a good citizen by programming <a className="font-bold hover:text-orange-500 text-stone-100" href="https://t.me/coronaimpftermine_hamburg">Covid Vaccination Appointments Bots</a> and the <a className="font-bold hover:text-orange-500 text-stone-100" href="https://t.me/leipzig_appointments">Leipzig Appointments Bot</a>,
-        reading an <a className="font-bold hover:text-orange-500 text-stone-100" href="https://www.goodreads.com/user/show/121850617-jakub">interesting book</a>,
-        or playing the <a className="font-bold hover:text-orange-500 text-stone-100" href="https://open.spotify.com/album/693WL6HmksSvOJv7pEbsDt?si=ay_RBOGuQeacbq5WaDa-qA">guitar</a>.
+      <p className="prose-sm text-ink-300 sm:prose-base lg:prose-lg">
+        In my free time, you can catch me <a className="font-medium text-ink-100 hover:text-brand-400" href="https://www.strava.com/athletes/22414933">cycling</a> Planet A,
+        exploring its climate in various warming scenarios (+1.5°, +2.0°…) using my <a className="font-medium text-ink-100 hover:text-brand-400" href="https://t.me/ProbableFuturesBot">Probable Futures Bot</a>,
+        coding <a className="font-medium text-ink-100 hover:text-brand-400" href="https://t.me/coronaimpftermine_hamburg">civic Telegram bots</a>,
+        reading an <a className="font-medium text-ink-100 hover:text-brand-400" href="https://www.goodreads.com/user/show/121850617-jakub">interesting book</a>,
+        or playing the <a className="font-medium text-ink-100 hover:text-brand-400" href="https://open.spotify.com/album/693WL6HmksSvOJv7pEbsDt?si=ay_RBOGuQeacbq5WaDa-qA">guitar</a>.
       </p>
     </>
   ),
@@ -100,29 +98,26 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: <p className="prose prose-sm text-gray-300 sm:prose-base">For the past five years, I was working as a Data Scientist/Engineer at Qimia GmbH
-  on various projects involving Data Science, Machine Learning and Data Engineering topics using a wide range of technologies.
-  <br></br>
-  Then I took a year off to travel around our beautiful Planet A.
-  After returning, I know that I want to dedicate my career not only to data but to climate and data.
+  description: <p className="prose prose-sm text-zinc-300 sm:prose-base">For the past 2+ years I've been a Data Scientist at <a className="font-semibold text-zinc-100 hover:text-orange-400" href="https://www.shipzero.com">shipzero</a>,
+  helping decarbonise global supply chains — building emission models, ML pipelines and data products that turn messy logistics
+  data into actionable carbon insights. Because there is no Planet B.
   <br></br>
   <br></br>
-  I graduated from the Czech Technical University in Prague with a master's thesis focused on
-  time series classification using artificial neural networks.
-  During my studies, I also gained practical experience.
-  The most significant is cooperation with Datamole, s.r.o. on the above-mentioned thesis
-  and one data analysis project and with Mibcon a.s. programming SAP portal applications in Java,
-  AngularJS and HTML.
+  Before that, I spent five years at Qimia GmbH on a wide range of Data Science, Machine Learning and Data Engineering projects,
+  then took a year off to travel around our beautiful Planet A. That trip is what convinced me to dedicate the rest of my career
+  to climate and data.
   <br></br>
-  I have gained other valuable experience during exchange semesters at the Tallinn University of Technology, Estonia
-  and the University of Waterloo, Canada.</p>,
+  <br></br>
+  I graduated from the Czech Technical University in Prague with a master's thesis on time series classification using artificial
+  neural networks, with exchange semesters at the University of Waterloo (Canada) and TalTech (Estonia). Earlier roles include
+  Mibcon a.s. (SAP portal apps in Java/AngularJS) and bioinformatics work at the National Institute of Public Health.</p>,
   aboutItems: [
     {label: 'Location', text: <>Hamburg, Germany</>, Icon: MapIcon},
-    {label: 'Age', text: <>32</>, Icon: CalendarIcon},
-    {label: 'Nationality', text: <>Czech</>, Icon: FlagIcon},
+    {label: 'Age', text: <>34</>, Icon: CalendarIcon},
+    {label: 'Nationality', text: <>Czech &amp; German</>, Icon: FlagIcon},
     {label: 'Interests', text: <>Cycling, books, music</>, Icon: SparklesIcon},
     {label: 'Study', text: <>Czech Technical University of Prague,<br></br>University of Waterloo,<br></br>TalTech – Tallinn University of Technology</>, Icon: AcademicCapIcon},
-    {label: 'Employment', text: <>shipzero</>, Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: <>shipzero (2+ years)</>, Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -229,12 +224,6 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage6,
   },
   {
-    title: 'Twitter Bot Tutorial',
-    description: 'Learn how to create a Twitter Bot in 15 minutes.',
-    url: 'https://github.com/jakubwaller/twitter-bot-tutorial',
-    image: porfolioImage10,
-  },
-  {
     title: 'Leipzig Appointments Bot',
     description: 'Tired of refreshing the page with available appointments at the Leipzig city office? The bot in this channel checks them for you and every minute sends available appointments.',
     url: 'https://github.com/jakubwaller/leipzigappointmentsbot',
@@ -302,12 +291,13 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'January 2024 -',
+    date: 'January 2024 — present',
     location: 'shipzero by Appanion Labs GmbH',
     title: 'Data Scientist',
     content: (
       <p>
-        Decarbonising supply chains.
+        Decarbonising global supply chains. Building emission models, ML pipelines and data products
+        that turn messy logistics data into actionable carbon insights for shippers and carriers.
       </p>
     ),
   },
@@ -370,8 +360,8 @@ export const certificates: TimelineItem[] = [
     location: 'LinkedIn Learning',
     title: '34 Things to Know about Carbon and Climate',
     content: (
-      <a className="hover:text-orange-500" href="https://www.linkedin.com/learning/certificates/ad65c2c4c6ad87bc476f8308bf3185805aa8a70071438cc6f0fde85b76a4c168?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D">
-        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.linkedin.com/learning/certificates/ad65c2c4c6ad87bc476f8308bf3185805aa8a70071438cc6f0fde85b76a4c168?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D">
+        <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
   },
@@ -380,8 +370,8 @@ export const certificates: TimelineItem[] = [
     location: 'LinkedIn Learning',
     title: 'How to Get a Job in Climate',
     content: (
-      <a className="hover:text-orange-500" href="https://www.linkedin.com/learning/certificates/9c290adfe6810e8beeb79a99b78df0375d6d3f0c3636c9b7a053495641d79bd1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D">
-        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.linkedin.com/learning/certificates/9c290adfe6810e8beeb79a99b78df0375d6d3f0c3636c9b7a053495641d79bd1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D">
+        <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
   },
@@ -390,8 +380,8 @@ export const certificates: TimelineItem[] = [
     location: 'DeepLearning.AI',
     title: 'ChatGPT Prompt Engineering for Developers',
     content: (
-      <a className="hover:text-orange-500" href="https://learn.deeplearning.ai/chatgpt-prompt-eng">
-        <li className="col-span-1 flex  items-start gap-x-2"><span>Course URL</span></li>
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://learn.deeplearning.ai/chatgpt-prompt-eng">
+        <span>Course URL ↗</span>
       </a>
     ),
   },
@@ -400,8 +390,8 @@ export const certificates: TimelineItem[] = [
     location: 'Kaggle',
     title: 'Data Visualization',
     content: (
-      <a className="hover:text-orange-500" href="https://www.kaggle.com/learn/certification/jakubwaller/data-visualization">
-        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.kaggle.com/learn/certification/jakubwaller/data-visualization">
+        <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
   },
@@ -410,8 +400,8 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Deploying Machine Learning Models in Production',
     content: (
-      <a className="hover:text-orange-500" href="https://www.coursera.org/account/accomplishments/certificate/53REXCQ5PHHX">
-        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/53REXCQ5PHHX">
+        <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
   },
@@ -420,8 +410,8 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Engineering for Production (MLOps)',
     content: (
-      <a className="hover:text-orange-500" href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZM4TB7LFHRFA">
-        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZM4TB7LFHRFA">
+        <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
   },
@@ -430,8 +420,8 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Modeling Pipelines in Production',
     content: (
-      <a className="hover:text-orange-500" href="https://www.coursera.org/account/accomplishments/certificate/XST476L3DT42">
-        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/XST476L3DT42">
+        <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
   },
@@ -440,8 +430,8 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Data Lifecycle in Production',
     content: (
-      <a className="hover:text-orange-500" href="https://www.coursera.org/account/accomplishments/certificate/5SGQK7P4T73Z">
-        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/5SGQK7P4T73Z">
+        <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
   },
@@ -450,8 +440,8 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Introduction to Machine Learning in Production',
     content: (
-      <a className="hover:text-orange-500" href="https://www.coursera.org/account/accomplishments/certificate/94AA8LVBEA3G">
-        <li className="col-span-1 flex  items-start gap-x-2">{ArrowDownTrayIcon && <ArrowDownTrayIcon className="h-5 w-5 sm:h-6 sm:w-6"/>}<span>Course Certificate</span></li>
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/94AA8LVBEA3G">
+        <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
   },
@@ -492,11 +482,6 @@ export const contact: ContactSection = {
       href: 'https://github.com/jakubwaller',
     },
     {
-      type: ContactType.Twitter,
-      text: '@aloissiola42',
-      href: 'https://twitter.com/aloissiola42',
-    },
-    {
       type: ContactType.Instagram,
       text: '@alois_siola',
       href: 'https://www.instagram.com/alois_siola/',
@@ -517,5 +502,4 @@ export const socialLinks: Social[] = [
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/7844121/aloissiola'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jakubwaller/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/alois_siola/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/aloissiola42'},
 ];
