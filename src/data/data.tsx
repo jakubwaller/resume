@@ -360,7 +360,7 @@ export const certificates: TimelineItem[] = [
     location: 'LinkedIn Learning',
     title: '34 Things to Know about Carbon and Climate',
     content: (
-      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.linkedin.com/learning/certificates/ad65c2c4c6ad87bc476f8308bf3185805aa8a70071438cc6f0fde85b76a4c168?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D">
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" href="https://www.linkedin.com/learning/certificates/ad65c2c4c6ad87bc476f8308bf3185805aa8a70071438cc6f0fde85b76a4c168?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D" rel="noreferrer" target="_blank">
         <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
@@ -370,7 +370,7 @@ export const certificates: TimelineItem[] = [
     location: 'LinkedIn Learning',
     title: 'How to Get a Job in Climate',
     content: (
-      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.linkedin.com/learning/certificates/9c290adfe6810e8beeb79a99b78df0375d6d3f0c3636c9b7a053495641d79bd1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D">
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" href="https://www.linkedin.com/learning/certificates/9c290adfe6810e8beeb79a99b78df0375d6d3f0c3636c9b7a053495641d79bd1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D" rel="noreferrer" target="_blank">
         <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
@@ -380,7 +380,7 @@ export const certificates: TimelineItem[] = [
     location: 'DeepLearning.AI',
     title: 'ChatGPT Prompt Engineering for Developers',
     content: (
-      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://learn.deeplearning.ai/chatgpt-prompt-eng">
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" href="https://learn.deeplearning.ai/chatgpt-prompt-eng" rel="noreferrer" target="_blank">
         <span>Course URL ↗</span>
       </a>
     ),
@@ -390,7 +390,7 @@ export const certificates: TimelineItem[] = [
     location: 'Kaggle',
     title: 'Data Visualization',
     content: (
-      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.kaggle.com/learn/certification/jakubwaller/data-visualization">
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" href="https://www.kaggle.com/learn/certification/jakubwaller/data-visualization" rel="noreferrer" target="_blank">
         <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
@@ -400,7 +400,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Deploying Machine Learning Models in Production',
     content: (
-      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/53REXCQ5PHHX">
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" href="https://www.coursera.org/account/accomplishments/certificate/53REXCQ5PHHX" rel="noreferrer" target="_blank">
         <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
@@ -410,7 +410,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Engineering for Production (MLOps)',
     content: (
-      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZM4TB7LFHRFA">
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZM4TB7LFHRFA" rel="noreferrer" target="_blank">
         <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
@@ -420,7 +420,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Modeling Pipelines in Production',
     content: (
-      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/XST476L3DT42">
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" href="https://www.coursera.org/account/accomplishments/certificate/XST476L3DT42" rel="noreferrer" target="_blank">
         <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
@@ -430,7 +430,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Machine Learning Data Lifecycle in Production',
     content: (
-      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/5SGQK7P4T73Z">
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" href="https://www.coursera.org/account/accomplishments/certificate/5SGQK7P4T73Z" rel="noreferrer" target="_blank">
         <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
@@ -440,7 +440,7 @@ export const certificates: TimelineItem[] = [
     location: 'Coursera',
     title: 'Introduction to Machine Learning in Production',
     content: (
-      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" rel="noreferrer" target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/94AA8LVBEA3G">
+      <a className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors" href="https://www.coursera.org/account/accomplishments/certificate/94AA8LVBEA3G" rel="noreferrer" target="_blank">
         <span className="inline-flex items-center gap-x-2"><ArrowDownTrayIcon className="h-4 w-4"/><span>Course Certificate</span></span>
       </a>
     ),
