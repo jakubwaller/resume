@@ -8,18 +8,36 @@ import TimelineItem from './TimelineItem';
 
 const Resume: FC = memo(() => {
   return (
-    <Section className="bg-neutral-100" sectionId={SectionId.Resume}>
-      <div className="flex flex-col divide-y-2 divide-neutral-300">
-        <ResumeSection title="Work">
-          {experience.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
+    <Section className="relative bg-ink-950" sectionId={SectionId.Resume}>
+      <div className="pointer-events-none absolute inset-0 bg-grid-zinc bg-grid opacity-20 [mask-image:radial-gradient(ellipse_at_center,black,transparent_75%)]" />
+
+      <div className="relative flex flex-col gap-y-3 pb-10">
+        <span className="inline-flex w-fit items-center gap-x-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-widest text-ink-300">
+          <span className="h-1 w-1 rounded-full bg-brand-400" />
+          Resume
+        </span>
+        <h2 className="text-balance font-sans text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+          Career, education<span className="font-display italic text-brand-400"> &amp;</span> craft.
+        </h2>
+      </div>
+
+      <div className="relative flex flex-col gap-y-12">
+        <ResumeSection title="Experience">
+          <div className="relative flex flex-col gap-y-6 border-l border-white/10 pl-6">
+            {experience.map((item, index) => (
+              <TimelineItem item={item} key={`${item.title}-${index}`} />
+            ))}
+          </div>
         </ResumeSection>
+
         <ResumeSection title="Education">
-          {education.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
+          <div className="relative flex flex-col gap-y-6 border-l border-white/10 pl-6">
+            {education.map((item, index) => (
+              <TimelineItem item={item} key={`${item.title}-${index}`} />
+            ))}
+          </div>
         </ResumeSection>
+
         <ResumeSection title="Skills">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
@@ -27,10 +45,13 @@ const Resume: FC = memo(() => {
             ))}
           </div>
         </ResumeSection>
+
         <ResumeSection title="Certificates">
-          {certificates.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
+          <div className="flex flex-col gap-y-3">
+            {certificates.map((item, index) => (
+              <TimelineItem item={item} key={`${item.title}-${index}`} />
+            ))}
+          </div>
         </ResumeSection>
       </div>
     </Section>
