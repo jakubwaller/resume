@@ -15,6 +15,7 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import heroImage from '../images/header.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.gif';
 import porfolioImage2 from '../images/portfolio/portfolio-2.gif';
+import porfolioImage3 from '../images/portfolio/portfolio-3.gif';
 import porfolioImage4 from '../images/portfolio/portfolio-4.gif';
 import porfolioImage7 from '../images/portfolio/portfolio-7.gif';
 import porfolioImage9 from '../images/portfolio/portfolio-9.gif';
@@ -196,6 +197,12 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Termine-notifier',
+    description: 'A free email service that watches Leipzig’s Bürgerbüro booking site and notifies you the moment a matching citizen-office appointment opens up. Self-hosted on a Raspberry Pi with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
+    url: 'https://termine.jakubwaller.eu',
+    image: porfolioImage3,
+  },
+  {
     title: 'Probable Futures Bot',
     description: "Probable Futures Bot is a Telegram Bot that is connected to the Probable Futures API and sends Probable Future scenarios for either an address or a location.",
     url: 'https://github.com/jakubwaller/probable-futures-bot',
@@ -208,12 +215,6 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'Leipzig Appointments Bot',
-    description: 'Tired of refreshing the page with available appointments at the Leipzig city office? The bot in this channel checks them for you and every minute sends available appointments.',
-    url: 'https://github.com/jakubwaller/leipzigappointmentsbot',
-    image: porfolioImage7,
-  },
-  {
     title: 'Strava Bot',
     description: 'Strava Bot sends you detailed statistics, graphs and maps after every ride/run/hike.',
     url: 'https://github.com/jakubwaller/strava-data-analysis',
@@ -224,6 +225,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Who doesn't like recursion",
     url: 'https://github.com/jakubwaller/resume',
     image: porfolioImage9,
+  },
+  {
+    title: 'Leipzig Appointments Bot',
+    description: 'Tired of refreshing the page with available appointments at the Leipzig city office? The bot in this channel checks them for you and every minute sends available appointments.',
+    url: 'https://github.com/jakubwaller/leipzigappointmentsbot',
+    image: porfolioImage7,
   },
 ];
 
