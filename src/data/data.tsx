@@ -197,9 +197,9 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Termine-notifier',
-    description: 'A free email service that watches Leipzig’s Bürgerbüro booking site and notifies you the moment a matching citizen-office appointment opens up. Self-hosted on a Raspberry Pi with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
-    url: 'https://termine.jakubwaller.eu',
+    title: 'Bürgerwecker',
+    description: 'A free email service that watches Leipzig’s Bürgerbüro and Ausländerbehörde booking sites and notifies you the moment a matching citizen-office appointment or residence-document pickup slot opens up. Self-hosted on a Raspberry Pi with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
+    url: 'https://buergerwecker.de',
     image: porfolioImage3,
   },
   {
