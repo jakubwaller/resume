@@ -1,12 +1,9 @@
 import {ArrowTopRightOnSquareIcon} from '@heroicons/react/24/outline';
-import classNames from 'classnames';
 import Image from 'next/image';
-import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 'react';
+import {FC, memo} from 'react';
 
-import {isMobile} from '../../config';
 import {portfolioItems, SectionId} from '../../data/data';
 import {PortfolioItem} from '../../data/dataDef';
-import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import Section from '../Layout/Section';
 
 const Portfolio: FC = memo(() => {
@@ -41,33 +38,11 @@ export default Portfolio;
 
 const PortfolioCard: FC<{item: PortfolioItem}> = memo(({item}) => {
   const {url, title, description, image} = item;
-  const [mobile, setMobile] = useState(false);
-  const [showOverlay, setShowOverlay] = useState(false);
-  const linkRef = useRef<HTMLAnchorElement>(null);
-
-  useEffect(() => {
-    if (isMobile) {
-      setMobile(true);
-    }
-  }, []);
-  useDetectOutsideClick(linkRef, () => setShowOverlay(false));
-
-  const handleItemClick = useCallback(
-    (event: MouseEvent<HTMLElement>) => {
-      if (mobile && !showOverlay) {
-        event.preventDefault();
-        setShowOverlay(true);
-      }
-    },
-    [mobile, showOverlay],
-  );
 
   return (
     <a
       className="group relative block overflow-hidden rounded-2xl border border-white/10 bg-ink-900 shadow-bento transition-all duration-300 hover:-translate-y-1 hover:border-brand-500/40 hover:shadow-glow focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400"
       href={url}
-      onClick={handleItemClick}
-      ref={linkRef}
       rel="noreferrer"
       target="_blank">
       <div className="relative aspect-[4/3] w-full overflow-hidden">
@@ -81,16 +56,8 @@ const PortfolioCard: FC<{item: PortfolioItem}> = memo(({item}) => {
       </div>
       <div className="flex items-start justify-between gap-3 p-4">
         <div className="flex flex-col gap-y-1">
-          <h3 className="text-sm font-semibold text-white transition-colors group-hover:text-brand-400">
-            {title}
-          </h3>
-          <p
-            className={classNames(
-              'text-xs leading-relaxed text-ink-400 transition-all duration-300',
-              showOverlay || !mobile ? 'line-clamp-3' : 'line-clamp-2',
-            )}>
-            {description}
-          </p>
+          <h3 className="text-sm font-semibold text-white transition-colors group-hover:text-brand-400">{title}</h3>
+          <p className="text-xs leading-relaxed text-ink-400">{description}</p>
         </div>
         <ArrowTopRightOnSquareIcon className="mt-0.5 h-4 w-4 shrink-0 text-ink-500 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand-400" />
       </div>
