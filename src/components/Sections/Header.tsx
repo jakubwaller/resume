@@ -35,6 +35,14 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
           {navSections.map(section => (
             <DesktopNavItem current={section === currentSection} key={section} section={section} />
           ))}
+          <span className="h-4 w-px bg-white/10" />
+          <a
+            className="rounded-full px-3 py-1.5 text-sm font-medium text-ink-400 transition-colors duration-300 hover:text-ink-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400"
+            href="https://hostux.social/@aloissiola"
+            rel="me"
+            target="_blank">
+            Mastodon
+          </a>
         </nav>
       </header>
     );
@@ -112,6 +120,14 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
                       </Link>
                     );
                   })}
+                  <a
+                    className="rounded-2xl px-4 py-3 text-base font-medium text-ink-300 transition-colors hover:bg-white/5 hover:text-white"
+                    href="https://hostux.social/@aloissiola"
+                    onClick={toggleOpen}
+                    rel="me"
+                    target="_blank">
+                    Mastodon
+                  </a>
                 </nav>
               </div>
             </Transition.Child>
