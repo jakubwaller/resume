@@ -10,10 +10,7 @@ import {useStore} from '../../store';
 export const headerID = 'headerNav';
 
 const Header: FC = memo(() => {
-  const navSections = useMemo(
-    () => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Contact],
-    [],
-  );
+  const navSections = useMemo(() => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Contact], []);
   const {currentSection} = useStore();
 
   return (
@@ -36,11 +33,7 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
           </Link>
           <span className="h-4 w-px bg-white/10" />
           {navSections.map(section => (
-            <DesktopNavItem
-              current={section === currentSection}
-              key={section}
-              section={section}
-            />
+            <DesktopNavItem current={section === currentSection} key={section} section={section} />
           ))}
         </nav>
       </header>
@@ -56,9 +49,7 @@ const DesktopNavItem: FC<{section: string; current: boolean}> = memo(({section, 
     )}
     href={`/#${section}`}>
     <span className="relative z-10">{section}</span>
-    {current && (
-      <span className="absolute inset-0 -z-0 rounded-full bg-white/10" />
-    )}
+    {current && <span className="absolute inset-0 -z-0 rounded-full bg-white/10" />}
   </Link>
 ));
 DesktopNavItem.displayName = 'DesktopNavItem';
@@ -112,9 +103,7 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
                       <Link
                         className={classNames(
                           'rounded-2xl px-4 py-3 text-base font-medium first-letter:uppercase transition-colors',
-                          current
-                            ? 'bg-white/10 text-white'
-                            : 'text-ink-300 hover:bg-white/5 hover:text-white',
+                          current ? 'bg-white/10 text-white' : 'text-ink-300 hover:bg-white/5 hover:text-white',
                         )}
                         href={`/#${section}`}
                         key={section}
