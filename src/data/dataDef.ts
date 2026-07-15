@@ -85,7 +85,6 @@ export interface TimelineItem {
   content: JSX.Element;
 }
 
-
 /**
  * Contact section
  */

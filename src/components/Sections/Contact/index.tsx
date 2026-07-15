@@ -34,9 +34,7 @@ const Contact: FC = memo(() => {
           <h2 className="text-balance font-sans text-3xl font-semibold tracking-tight text-white sm:text-5xl">
             <span className="font-display italic text-brand-400">{headerText}</span>
           </h2>
-          {description && (
-            <p className="max-w-md text-sm leading-relaxed text-ink-400">{description}</p>
-          )}
+          {description && <p className="max-w-md text-sm leading-relaxed text-ink-400">{description}</p>}
           <p className="max-w-md text-sm leading-relaxed text-ink-400">
             Curious about climate-tech, data, or just want to say hi? My inbox is open.
           </p>
@@ -56,9 +54,7 @@ const Contact: FC = memo(() => {
                   <Icon aria-hidden="true" className="h-4 w-4" />
                 </span>
                 <div className="flex min-w-0 flex-col">
-                  <span className="text-[11px] font-medium uppercase tracking-widest text-ink-500">
-                    {srLabel}
-                  </span>
+                  <span className="text-[11px] font-medium uppercase tracking-widest text-ink-500">{srLabel}</span>
                   <span className="truncate text-sm text-ink-100">{text}</span>
                 </div>
               </a>
