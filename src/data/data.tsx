@@ -11,6 +11,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import MastodonIcon from '../components/Icon/MastodonIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import heroImage from '../images/header.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.gif';
@@ -576,6 +577,11 @@ export const contact: ContactSection = {
       href: 'https://www.instagram.com/alois_siola/',
     },
     {
+      type: ContactType.Mastodon,
+      text: '@aloissiola',
+      href: 'https://hostux.social/@aloissiola',
+    },
+    {
       type: ContactType.Location,
       text: 'Hamburg, Germany',
       href: 'https://maps.app.goo.gl/f3yxsRpANsE8tHVa6',
@@ -591,4 +597,5 @@ export const socialLinks: Social[] = [
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/7844121/aloissiola'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jakubwaller/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/alois_siola/'},
+  {label: 'Mastodon', Icon: MastodonIcon, href: 'https://hostux.social/@aloissiola'},
 ];
