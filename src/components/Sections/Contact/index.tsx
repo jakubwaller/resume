@@ -7,6 +7,7 @@ import FacebookIcon from '../../Icon/FacebookIcon';
 import GithubIcon from '../../Icon/GithubIcon';
 import InstagramIcon from '../../Icon/InstagramIcon';
 import LinkedInIcon from '../../Icon/LinkedInIcon';
+import MastodonIcon from '../../Icon/MastodonIcon';
 import Section from '../../Layout/Section';
 
 const ContactValueMap: Record<ContactType, ContactValue> = {
@@ -17,6 +18,7 @@ const ContactValueMap: Record<ContactType, ContactValue> = {
   [ContactType.LinkedIn]: {Icon: LinkedInIcon, srLabel: 'LinkedIn'},
   [ContactType.Facebook]: {Icon: FacebookIcon, srLabel: 'Facebook'},
   [ContactType.Instagram]: {Icon: InstagramIcon, srLabel: 'Instagram'},
+  [ContactType.Mastodon]: {Icon: MastodonIcon, srLabel: 'Mastodon'},
 };
 
 const Contact: FC = memo(() => {
