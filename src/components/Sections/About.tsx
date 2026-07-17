@@ -37,6 +37,7 @@ const About: FC = memo(() => {
                   Hamburg · DE
                 </div>
                 <p className="mt-1 font-display text-2xl italic text-white">Jakub Waller</p>
+                <p className="mt-1 text-[10px] text-ink-400">Photo: studioline Photostudios, Leipzig</p>
               </div>
             </div>
           )}
