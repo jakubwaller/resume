@@ -28,9 +28,6 @@ const Footer: FC = memo(() => (
 
       <div className="flex flex-col items-center gap-y-1 sm:items-end">
         <div className="flex gap-x-3 text-xs text-ink-400">
-          <Link className="hover:text-brand-400" href="/impressum">
-            Impressum
-          </Link>
           <Link className="hover:text-brand-400" href="/datenschutz">
             Datenschutz
           </Link>
