@@ -1,4 +1,5 @@
 import {ChevronUpIcon} from '@heroicons/react/24/solid';
+import Link from 'next/link';
 import {FC, memo} from 'react';
 
 import {SectionId} from '../../data/data';
@@ -25,7 +26,14 @@ const Footer: FC = memo(() => (
         <Socials />
       </div>
 
-      <span className="text-xs text-ink-500">© {new Date().getFullYear()} Jakub Waller</span>
+      <div className="flex flex-col items-center gap-y-1 sm:items-end">
+        <div className="flex gap-x-3 text-xs text-ink-400">
+          <Link className="hover:text-brand-400" href="/datenschutz">
+            Datenschutz
+          </Link>
+        </div>
+        <span className="text-xs text-ink-500">© {new Date().getFullYear()} Jakub Waller</span>
+      </div>
     </div>
   </footer>
 ));
