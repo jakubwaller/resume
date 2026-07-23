@@ -25,15 +25,11 @@ const Datenschutz: FC = memo(() => (
       <section>
         <h2 className="mb-2 font-medium text-ink-100">Verantwortlicher</h2>
         <p>
-          Jakub Waller, Hamburg, Deutschland (vollständige Anschrift im{' '}
-          <Link className="text-brand-400 hover:text-brand-300" href="/impressum">
-            Impressum
-          </Link>
-          ). Kontakt:{' '}
+          Jakub Waller, Hamburg, Deutschland. Kontakt:{' '}
           <a className="text-brand-400 hover:text-brand-300" href="mailto:jakub@jakubwaller.eu">
             jakub@jakubwaller.eu
           </a>
-          .
+          . Dies ist eine private Seite; ein Impressum nach § 5 DDG ist nicht erforderlich.
         </p>
       </section>
       <section>
@@ -55,11 +51,10 @@ const Datenschutz: FC = memo(() => (
         </p>
       </section>
       <section>
-        <h2 className="mb-2 font-medium text-ink-100">Kontaktformular</h2>
+        <h2 className="mb-2 font-medium text-ink-100">Kontakt</h2>
         <p>
-          Das Kontaktformular auf dieser Seite übermittelt und speichert keine Daten — deine Eingaben verbleiben in
-          deinem Browser und werden nicht an einen Server gesendet. Für eine Kontaktaufnahme nutze bitte die oben
-          genannte E-Mail-Adresse.
+          Diese Seite enthält kein Kontaktformular und keine serverseitige Datenerfassung. Für eine Kontaktaufnahme
+          nutze bitte die oben genannte E-Mail-Adresse.
         </p>
       </section>
       <section>
