@@ -248,6 +248,13 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Bürgerwecker',
+    description:
+      'A free email service that watches Leipzig’s Bürgerbüro and Ausländerbehörde booking sites and notifies you the moment a matching citizen-office appointment or residence-document pickup slot opens up. Self-hosted on a Raspberry Pi with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
+    url: 'https://buergerwecker.de',
+    image: porfolioImage3,
+  },
+  {
     title: 'PapaMap',
     description:
       'A map of ~6,000 places across Germany with a baby changing table, colored by whether a dad can actually reach it: green means an accessible room, red means women’s room only, grey means nobody has recorded which room yet. Grey pins deep-link to MapComplete, turning each gap into an OpenStreetMap edit. Rebuilt nightly from OSM on a Raspberry Pi.',
@@ -267,13 +274,6 @@ export const portfolioItems: PortfolioItem[] = [
       'A map of 9,000+ German drinking venues, filterable by draft beer brand and serving type (Fassbier/Tankbier). Hamburg and Leipzig are swept in full via OpenStreetMap; venues elsewhere show up once a brand is known. Community submissions land on a human-curated core, refreshed nightly on a Raspberry Pi.',
     url: 'https://zapfkompass.de',
     image: porfolioImage14,
-  },
-  {
-    title: 'Bürgerwecker',
-    description:
-      'A free email service that watches Leipzig’s Bürgerbüro and Ausländerbehörde booking sites and notifies you the moment a matching citizen-office appointment or residence-document pickup slot opens up. Self-hosted on a Raspberry Pi with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
-    url: 'https://buergerwecker.de',
-    image: porfolioImage3,
   },
   {
     title: 'Probable Futures Bot',
