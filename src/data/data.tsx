@@ -20,6 +20,9 @@ import porfolioImage3 from '../images/portfolio/portfolio-3.gif';
 import porfolioImage4 from '../images/portfolio/portfolio-4.gif';
 import porfolioImage7 from '../images/portfolio/portfolio-7.gif';
 import porfolioImage9 from '../images/portfolio/portfolio-9.gif';
+import porfolioImage12 from '../images/portfolio/portfolio-12.gif';
+import porfolioImage13 from '../images/portfolio/portfolio-13.gif';
+import porfolioImage14 from '../images/portfolio/portfolio-14.gif';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -244,6 +247,27 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'PapaMap',
+    description:
+      'A map of ~6,000 places across Germany with a baby changing table, colored by whether a dad can actually reach it: green means an accessible room, red means women’s room only, grey means nobody has recorded which room yet. Grey pins deep-link to MapComplete, turning each gap into an OpenStreetMap edit. Rebuilt nightly from OSM on a Raspberry Pi.',
+    url: 'https://papamap.de',
+    image: porfolioImage12,
+  },
+  {
+    title: 'Weather Analysis',
+    description:
+      'Collects outside weather (Open-Meteo) and Home Assistant Zigbee sensor readings into a SQLite database on a Raspberry Pi, with a Streamlit dashboard for inside-vs-outside trends, temperature deltas, daily ranges and hour-by-day heatmaps — and how strongly (and how slowly) the flat follows the weather.',
+    url: 'https://github.com/jakubwaller/weather-analysis',
+    image: porfolioImage13,
+  },
+  {
+    title: 'Zapfkompass',
+    description:
+      'A map of 9,000+ German drinking venues, filterable by draft beer brand and serving type (Fassbier/Tankbier). Hamburg and Leipzig are swept in full via OpenStreetMap; venues elsewhere show up once a brand is known. Community submissions land on a human-curated core, refreshed nightly on a Raspberry Pi.',
+    url: 'https://zapfkompass.de',
+    image: porfolioImage14,
+  },
   {
     title: 'Bürgerwecker',
     description:
