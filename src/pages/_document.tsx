@@ -13,6 +13,9 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap"
           rel="stylesheet"
         />
+        {/* Mastodon link verification: the profile lists jakubwaller.eu, this
+            is the required backlink. */}
+        <link href="https://hostux.social/@aloissiola" rel="me" />
       </Head>
       <body className="bg-ink-950 text-ink-100 antialiased">
         <Main />
