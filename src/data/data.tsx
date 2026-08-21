@@ -250,7 +250,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Bürgerwecker',
     description:
-      'A free email service that watches Leipzig’s Bürgerbüro and Ausländerbehörde booking sites and notifies you the moment a matching citizen-office appointment or residence-document pickup slot opens up. Self-hosted on a small VPS with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
+      'A free email service that watches appointment booking sites in 29 German cities (Bürgerbüro, Ausländerbehörde, KFZ-Zulassung and more) and notifies you the moment a matching slot opens up. Self-hosted on a small VPS with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
     url: 'https://buergerwecker.de',
     image: porfolioImage3,
   },
