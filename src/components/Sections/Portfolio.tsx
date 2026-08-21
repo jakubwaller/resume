@@ -20,7 +20,10 @@ const Portfolio: FC = memo(() => {
           Side projects<span className="font-display italic text-brand-400"> &amp; </span>tinkering.
         </h2>
         <p className="max-w-xl text-sm text-ink-400">
-          A small collection of bots, tools and weekend builds — mostly Python, mostly on Telegram, mostly for fun.
+          A small collection of maps, bots and weekend builds — mostly Python, mostly for fun.
+        </p>
+        <p className="max-w-xl text-xs text-ink-500">
+          I do use AI to help me with coding and drafting texts. Everything goes through my human eyes though.
         </p>
       </div>
 
