@@ -148,8 +148,6 @@ export const aboutData: About = {
       classification using artificial neural networks, with exchange semesters at the University of Waterloo (Canada)
       and TalTech (Estonia). Earlier roles include Mibcon a.s. (SAP portal apps in Java/AngularJS) and bioinformatics
       work at the National Institute of Public Health.
-      <br></br>
-      <br></br>I do use AI to help me with coding and drafting texts. Everything goes through my human eyes though.
     </p>
   ),
   aboutItems: [
@@ -252,14 +250,14 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Bürgerwecker',
     description:
-      'A free email service that watches Leipzig’s Bürgerbüro and Ausländerbehörde booking sites and notifies you the moment a matching citizen-office appointment or residence-document pickup slot opens up. Self-hosted on a small VPS with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
+      'A free email service that watches appointment booking sites in 29 German cities (Bürgerbüro, Ausländerbehörde, KFZ-Zulassung and more) and notifies you the moment a matching slot opens up. Self-hosted on a small VPS with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
     url: 'https://buergerwecker.de',
     image: porfolioImage3,
   },
   {
     title: 'PapaMap',
     description:
-      'A map of ~6,300 places across Germany and Denmark with a baby changing table, colored by whether a dad can actually reach it: green means an accessible room, red means women’s room only, grey means nobody has recorded which room yet. Grey pins deep-link to MapComplete, turning each gap into an OpenStreetMap edit. Rebuilt nightly from OSM on a self-hosted VPS.',
+      'A map of ~14,000 places across eleven European countries with a baby changing table, colored by whether a dad can actually reach it: green means an accessible room, red means women’s room only, grey means nobody has recorded which room yet. Grey pins deep-link to MapComplete, turning each gap into an OpenStreetMap edit. Nine languages, rebuilt nightly from OSM on a self-hosted VPS.',
     url: 'https://papamap.de',
     image: porfolioImage12,
   },
@@ -273,7 +271,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Zapfkompass',
     description:
-      'A map of 9,000+ German drinking venues, filterable by draft beer brand and serving type (Fassbier/Tankbier). Hamburg and Leipzig are swept in full via OpenStreetMap; venues elsewhere show up once a brand is known. Community submissions land on a human-curated core, refreshed nightly on a self-hosted VPS.',
+      'A map of German, Austrian and Czech drinking venues, filterable by draft beer brand and serving type (Fassbier/Tankbier). Every pub, bar and Biergarten in all three countries shows up as at least a clickable gray dot via OpenStreetMap; the famous Czech tankovnas are seeded as curated tank entries. Community submissions land on a human-curated core, refreshed nightly on a self-hosted VPS.',
     url: 'https://zapfkompass.de',
     image: porfolioImage14,
   },
