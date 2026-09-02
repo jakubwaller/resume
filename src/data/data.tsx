@@ -361,7 +361,7 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'January 2024 — present',
-    location: 'shipzero by Appanion Labs GmbH',
+    location: 'shipzero GmbH',
     title: 'Data Scientist',
     content: (
       <p>
