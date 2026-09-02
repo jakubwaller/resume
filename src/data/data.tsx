@@ -90,9 +90,13 @@ export const heroData: Hero = {
         <a className="font-medium text-ink-100 hover:text-brand-400" href="https://t.me/ProbableFuturesBot">
           Probable Futures Bot
         </a>
-        , coding{' '}
-        <a className="font-medium text-ink-100 hover:text-brand-400" href="https://t.me/coronaimpftermine_hamburg">
-          civic Telegram bots
+        , hunting Bürgeramt appointments with{' '}
+        <a className="font-medium text-ink-100 hover:text-brand-400" href="https://buergerwecker.de">
+          Bürgerwecker
+        </a>
+        , mapping which changing tables a dad can reach on{' '}
+        <a className="font-medium text-ink-100 hover:text-brand-400" href="https://papamap.de">
+          PapaMap
         </a>
         , reading an{' '}
         <a
