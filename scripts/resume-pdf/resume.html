@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Jakub Waller – Resume</title>
+<style>
+  @page { size: A4; margin: 12mm 13mm 14mm 13mm; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { font-family: "Liberation Sans", Arial, Helvetica, "DejaVu Sans", sans-serif; font-size: 9.6pt; line-height: 1.32; color: #1f2933; }
+  a { color: #1f4e79; text-decoration: none; }
+  h1, h2 { font-family: "Liberation Serif", Georgia, "DejaVu Serif", serif; font-weight: 400; letter-spacing: 0.02em; }
+  h2 { font-size: 15pt; color: #4e5f6e; margin: 12pt 0 4pt; page-break-after: avoid; }
+  h2 + * { page-break-before: avoid; }
+
+  .header { background: #6b7a89; color: #fff; margin: -12mm -13mm 0; padding: 9mm 13mm 6mm; display: flex; align-items: flex-start; justify-content: flex-end; gap: 10mm; }
+  .header .id { text-align: right; padding-top: 3mm; }
+  .header h1 { font-size: 27pt; margin: 0 0 3pt; color: #fff; }
+  .header .contacts { font-size: 9.4pt; line-height: 1.45; }
+  .header .contacts a { color: #eef3f8; text-decoration: underline; text-underline-offset: 2px; }
+  .header img { width: 34mm; height: 34mm; object-fit: cover; object-position: top; border: 2px solid #fff; }
+
+  table { width: 100%; border-collapse: collapse; }
+  .rows td { vertical-align: top; padding: 2.5pt 6pt; }
+  .rows tr:nth-child(odd) td { background: #f2f4f6; }
+  .rows td.when { width: 30mm; white-space: nowrap; }
+  .rows b { font-weight: 700; }
+  .muted { color: #48535e; }
+
+  .grid th { text-align: left; font-weight: 700; padding: 3pt 5pt; background: #dfe4e9; border-bottom: 1px solid #b9c2cb; font-size: 9pt; }
+  .grid td { vertical-align: top; padding: 4pt 5pt; border-bottom: 1px solid #e3e7eb; font-size: 8.9pt; }
+  .grid tr { page-break-inside: avoid; }
+  .grid td.c1 { width: 24mm; } .grid td.c2 { width: 46mm; } .grid td.c4 { width: 40mm; }
+  .grid ul { margin: 0; padding-left: 10pt; } .grid li { margin: 0 0 1.5pt; }
+
+  .certs td.n { width: 58mm; } .certs td.o { width: 28mm; } .certs td.d { width: 16mm; white-space: nowrap; } .certs td.i { width: 30mm; }
+  .certs td.u { word-break: break-all; font-size: 8pt; }
+
+  .skills td { padding: 2.5pt 6pt; vertical-align: top; } .skills td.k { width: 30mm; font-weight: 700; }
+  .projects p { margin: 0 0 4pt; } .projects b { font-weight: 700; }
+  .nb { page-break-inside: avoid; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="id">
+    <h1>Jakub Waller</h1>
+    <div class="contacts">
+      <a href="mailto:reachout@jakubwaller.eu">reachout@jakubwaller.eu</a><br>
+      <a href="https://www.jakubwaller.eu/">https://www.jakubwaller.eu/</a><br>
+      <a href="https://www.linkedin.com/in/jakubwaller/">https://www.linkedin.com/in/jakubwaller/</a>
+    </div>
+  </div>
+  <img src="profilepic.jpg" alt="">
+</div>
+
+<h2>Work experience</h2>
+<table class="rows">
+  <tr><td class="when">01/2024 – present</td><td><b>Data Scientist</b> at shipzero GmbH, Hamburg<br>
+    <span class="muted">Main occupation: Decarbonising global supply chains: building emission models, ML pipelines and data products that turn messy logistics data into actionable carbon insights for shippers and carriers. Team lead of the data team.</span></td></tr>
+  <tr><td class="when">12/2022 – 12/2023</td><td><b>Career Break</b></td></tr>
+  <tr><td class="when">11/2017 – 11/2022</td><td><b>Data Scientist/Engineer</b> at Qimia GmbH<br>
+    <span class="muted">Main occupation: Working on various projects involving Data Science, Machine Learning and Data Engineering topics using a wide range of technologies.</span></td></tr>
+  <tr><td class="when">02/2017 – 10/2017</td><td><b>Research Scientist</b> at the Czech Technical University in Prague; Faculty of Information Technology<br>
+    <span class="muted">Main occupation: Comparing various architectures of artificial neural networks on a set of time series classification data sets</span></td></tr>
+  <tr><td class="when">03/2015 – 10/2016</td><td><b>Java &amp; JavaScript Developer</b> at Mibcon a.s.<br>
+    <span class="muted">Main occupation: Programming SAP portal applications in Java, AngularJS and HTML for a web portal for ČEZ Distribuce, a. s.</span></td></tr>
+  <tr><td class="when">04/2013 – 10/2017</td><td><b>Network Administrator</b> at the Charles University in Prague; First Faculty of Medicine<br>
+    <span class="muted">Main occupation: Maintenance of computers and other technical devices at the Institute of Immunology and Microbiology</span></td></tr>
+  <tr><td class="when">07/2013 – 06/2014</td><td><b>Bioinformatics Analyst</b> at the National Institute of Public Health<br>
+    <span class="muted">Main occupation: Extracting information from rRNA using various bioinformatics software</span></td></tr>
+</table>
+
+<h2>Education</h2>
+<table class="rows">
+  <tr><td class="when">2014 – 2017</td><td><b>Master of Science in Informatics</b> at the Czech Technical University in Prague; Faculty of Information Technology<br>
+    <span class="muted">Study Field: Knowledge Engineering; Main Topics: Pattern Recognition, Data Mining Algorithms, Data Preprocessing, Enterprise Data Warehouse Systems, Parallel Algorithms<br>Master’s Thesis: “Time Series Classification with Artificial Neural Networks” (B/1.5)</span></td></tr>
+  <tr><td class="when">05/2016 – 09/2016</td><td><b>Exchange Semester</b> at the University of Waterloo, Canada<br><span class="muted">Main topics: Artificial Intelligence, Forecasting</span></td></tr>
+  <tr><td class="when">08/2014 – 01/2015</td><td><b>Exchange Semester</b> at the Tallinn University of Technology, Estonia<br><span class="muted">Main topics: Robotics, Malware, Analysis of Programming Languages</span></td></tr>
+  <tr><td class="when">2011 – 2014</td><td><b>Bachelor of Science in Informatics</b> at the Czech Technical University in Prague; Faculty of Information Technology<br>
+    <span class="muted">Study Field: Computer Science; Main Topics: Programming Languages and Compilers, Algorithms, Operating Systems, Database Systems, Security, Artificial Intelligence<br>Bachelor’s Thesis: “Simulation of a Quantum Particle on a Twisted 2D Waveguide” (B/1.5)</span></td></tr>
+</table>
+
+<div class="nb">
+<h2>Skills</h2>
+<table class="skills rows">
+  <tr><td class="k">Data Science</td><td>Python, SQL, Spark</td></tr>
+  <tr><td class="k">Machine Learning</td><td>XGBoost, scikit-learn, Metaflow + MLflow</td></tr>
+  <tr><td class="k">Cloud</td><td>AWS, Azure, GCP</td></tr>
+</table>
+</div>
+
+<div class="nb">
+<h2>Language Skills</h2>
+<table class="rows">
+  <tr><td class="when">Czech</td><td>Native speaker</td></tr>
+  <tr><td class="when">English</td><td>Full professional proficiency</td></tr>
+  <tr><td class="when">German</td><td>Full professional proficiency</td></tr>
+</table>
+</div>
+
+<h2>Side projects</h2>
+<div class="projects">
+  <p><b>Bürgerwecker</b> · <a href="https://buergerwecker.de">buergerwecker.de</a> — A free email service that watches appointment booking sites in 29 German cities (Bürgerbüro, Ausländerbehörde, KFZ-Zulassung and more) and notifies you the moment a matching slot opens up. Self-hosted on a small VPS with Flask, a Python poller and Docker Compose; no accounts, no tracking, no ads.</p>
+  <p><b>PapaMap</b> · <a href="https://papamap.de">papamap.de</a> — A map of over 18,000 places across 44 European countries with a baby changing table, coloured by whether a dad can actually reach it. Unknown places deep-link to MapComplete, turning each gap into an OpenStreetMap edit. 31 languages, rebuilt nightly from OSM on a self-hosted VPS.</p>
+  <p><b>Zapfkompass</b> · <a href="https://zapfkompass.de">zapfkompass.de</a> — A map of German, Austrian and Czech drinking venues, filterable by draft beer brand and serving type (Fassbier/Tankbier), built on OpenStreetMap with a human-curated core and community submissions, refreshed nightly.</p>
+  <p><b>Weather Analysis</b> · <a href="https://github.com/jakubwaller/weather-analysis">github.com/jakubwaller/weather-analysis</a> — Collects outside weather (Open-Meteo) and Home Assistant Zigbee sensor readings into SQLite on a Raspberry Pi, with a Streamlit dashboard for inside-vs-outside trends and heatmaps.</p>
+  <p><b>Probable Futures Bot</b> · <a href="https://t.me/ProbableFuturesBot">t.me/ProbableFuturesBot</a> — A Telegram bot on the Probable Futures API that returns climate-warming scenarios (+1.5°, +2.0°…) for an address or location.</p>
+</div>
+
+<h2>Project Overview</h2>
+<table class="grid">
+  <tr><th>Industry / Role / Date</th><th>Project Description</th><th>Assignments</th><th>Technologies</th></tr>
+  <tr><td class="c1">Climate / Logistics<br>Data Scientist<br>01/2024 – present</td>
+    <td class="c2">Decarbonising global supply chains: emission models, ML pipelines and data products that turn messy logistics data into actionable carbon insights for shippers and carriers.</td>
+    <td><ul><li>Build and maintain emission models for transport chains</li><li>Design and run ML and data pipelines on logistics data</li><li>Ship data products for shippers and carriers</li><li>Team lead of the data team</li></ul></td>
+    <td class="c4">See Skills</td></tr>
+  <tr><td class="c1">TV<br>Data Scientist<br>01/2022 – 11/2022</td>
+    <td class="c2">Predicting users’ age and gender based on their watching behaviour.</td>
+    <td><ul><li>Collect, process and analyse labelled data of several thousand households and their watching history in Sagemaker Notebooks and Athena.</li><li>Design features that would work both in the training set and the test set (different data sources) and iteratively train many machine learning models to find what features have the best predictive value.</li><li>Run hyperparameter optimisation on the models to improve accuracy.</li><li>Implement the training pipeline: data processing, feature engineering, model training, model evaluation, using Glue, Batch, Metaflow and MLflow.</li><li>Implement the inference pipeline: data processing, feature engineering, model inference, prediction aggregation, using Glue, Batch, Metaflow and MLflow.</li><li>Deploy both pipelines into production using CodeCommit and CodePipeline.</li><li>Monitor all jobs.</li></ul></td>
+    <td class="c4">Python, PySpark, pandas, scikit-learn, xgboost, metaflow, mlflow, Athena, S3, Glue, Glue Crawler, Glue Catalog, Sagemaker, Batch, CodeCommit, CodePipeline, git, SQL, Jupyter notebook, pytest, mock, optuna, deepchecks</td></tr>
+  <tr><td class="c1">Logistics<br>Data Engineer<br>11/2020 – 12/2021</td>
+    <td class="c2">On-prem data integration to Azure Data Lake via Talend; event-driven data processing ETL framework; Event Grid and Event Hubs stream processing using Spark Structured Streaming on Databricks; semantic data model for warehouse management systems data; machine learning models for transport and warehouse optimisation use cases.</td>
+    <td><ul><li>Investigate and improve a pipeline design initially based on Azure Functions</li><li>Implement a Spark Structured Streaming job on Databricks connected to an Event Hub, distributing the events between several batch jobs</li><li>Implement a PySpark batch job on Databricks to process the data from an Azure Data Lake Storage landing zone to output format (parquet), enabling analytics via Synapse and Azure Data Explorer</li><li>Use Synapse and Azure Data Explorer to verify the results with the business users</li><li>Analyse the data and design and implement a semantic layer in Databricks enabling further data science</li><li>Design a machine learning pipeline which provides real-time predictions via an API</li><li>Monitor data migration using Power BI dashboards</li></ul></td>
+    <td class="c4">Python 3.8, Apache Spark 3.1.1, Azure Databricks 8.1, Talend Cloud Data Integration 7.3, Talend Studio 7, Azure Data Lake Storage Gen2, Power BI, Azure Event Hubs, Azure Event Grid, Azure Functions, Azure SQL, Azure Python SDK, Azure Synapse Analytics, Synapse Serverless SQL Pool, Azure Data Explorer (Kusto), Azure Application Insights, Azure Log Analytics, Azure Monitor, Azure DevOps, Terraform, Oracle DB, MySQL</td></tr>
+  <tr><td class="c1">Data Analytics, Cloud SaaS Product<br>Data Engineer<br>07/2020 – 10/2020</td>
+    <td class="c2">Cloud big data migration tool; low-latency, high-throughput multi-data-source data migration; reactive non-blocking IO architecture.</td>
+    <td><ul><li>Importing data from RDBMS (SQL database) to cloud storage</li><li>Reactive non-blocking parallel data ingestion using Vert.x async SQL clients</li><li>Non-blocking async read/write from and to files using the Vert.x filesystem API</li><li>Design and implementation of a configuration DSL as Java API and YAML</li><li>Time-based partitioning of transactional data (tables)</li><li>Master data and dimensional data continuous change capture</li><li>Multi-cloud storage: local (POSIX) filesystem, AWS S3, Azure Blob Storage</li></ul></td>
+    <td class="c4">Java 11, SQL, JDBC, Vert.x 3.9.3, Vert.x SQL Client, AWS, Azure, Google Cloud, PostgreSQL, MySQL, MariaDB, MS SQL, Parquet, Avro, JSON, CSV, S3, Azure Blob Storage, Google Cloud Storage, reactive programming, non-blocking IO, Vert.x async SQL client, YAML, builder pattern, Picocli, SnakeYAML, Maven</td></tr>
+  <tr><td class="c1">FinTech<br>Machine Learning Engineer<br>10/2019 – 06/2020</td>
+    <td class="c2">AWS data lake and DWH; Spark DAG ETL pipelines on EMR; Redshift DWH development; machine learning models and inference API; automation using CloudFormation and the Python SDK.</td>
+    <td><ul><li>Data exploration and feature engineering for machine learning models</li><li>ETL pipeline structure identification, establishment and optimisation</li><li>Data warehousing with Spark ETL jobs and Redshift Spectrum scripts</li><li>Inference classification model: feature engineering, training, evaluation and deployment</li><li>Inference regression model: feature engineering, training, evaluation and deployment</li><li>Statistical analysis of existing historical data and new test data</li><li>Comprehensive data science training for the client’s new data scientist</li></ul></td>
+    <td class="c4">Python, xgboost, Scala, Apache Spark, Spark SQL, RDS Aurora, AWS Glue, Glue Crawler, Glue Catalog, AWS S3, AWS EMR, AWS Redshift, Redshift Spectrum, JupyterHub, MLeap, Spark ML, Play Framework, CloudFormation, CloudWatch, AWS IAM, Boto3, EC2, Hive, Livy, Hue</td></tr>
+  <tr><td class="c1">AdTech / Marketing<br>Data Scientist<br>06/2019 – 09/2019</td>
+    <td class="c2">Azure data migration; data lake creation, ETL and data warehousing; data analytics.</td>
+    <td><ul><li>Discovery, cleansing and use-case analysis of data from mixed formats and sources</li><li>Data preparation and integration into a unified storage file format</li><li>Azure Data Lake integration and creation</li><li>Extract, transform, load processing featuring MySQL</li><li>Performance metric evaluation and analysis</li><li>Data mart creation with MS SQL and Power BI</li><li>Data analysis of campaign efficiency across various metrics</li><li>Discovery and presentation of future application integration and automation</li></ul></td>
+    <td class="c4">Python, pandas, Matplotlib, Jupyter, Scala, Apache Spark, Spark SQL, Azure Databricks, Azure SQL Data Warehouse, MySQL, MS SQL, IntelliJ, SBT, Power BI</td></tr>
+  <tr><td class="c1">Logistics<br>Software Engineer<br>04/2019 – 05/2019</td>
+    <td class="c2">Design and implementation of an optimisation engine; architecture and implementation of a server–client solution.</td>
+    <td><ul><li>Exploration, analysis and benchmarking of optimisation frameworks</li><li>Implementation of a Java Spring Boot server side based on Kafka and PostgreSQL</li><li>Deploying services with docker-compose</li><li>Implementation and testing of React-based web and Android clients</li></ul></td>
+    <td class="c4">Java, Spring Boot, Docker, PostgreSQL, OSRM, Kafka, Hasura, Maven, Gradle, Google Cloud</td></tr>
+  <tr><td class="c1">Electric Utility<br>Machine Learning Engineer<br>02/2018 – 03/2019</td>
+    <td class="c2">Predictive maintenance ML models; Azure cloud data lake development; Azure big data engineering.</td>
+    <td><ul><li>Batch processing and ETL pipelines with Scala Spark and PySpark</li><li>Deploying jobs on a YARN cluster (HDInsight) using GitLab CI/CD</li><li>Data processing and analysis with ArangoDB</li><li>Working with HDFS data on Azure Data Lake</li><li>Data exploration using Jupyter and Metabase</li><li>ML model feature transformation pipeline using Spark and pandas</li><li>ML model training using xgboost</li></ul></td>
+    <td class="c4">Python, Jupyter, pandas, xgboost, Azure HDInsight, Spark, PySpark, Spark SQL, Azure CLI, Scala, SQL, Hadoop HDFS, YARN, MS SQL, ArangoDB, Docker, GitLab CI/CD, Metabase</td></tr>
+  <tr><td class="c1">Post<br>Data Engineer<br>11/2017 – 01/2018</td>
+    <td class="c2">Implementation of a cloud real-time tracking platform on Kafka; deployment of microservices on a Rancher Docker platform.</td>
+    <td><ul><li>Kafka Streams microservice implementation using Avro schemas and the Confluent Schema Registry</li><li>Installation of Rancher and Docker</li><li>Confluent Enterprise Docker cluster with ZooKeeper, Kafka broker, (Avro) Schema Registry, Kafka Connect and Control Center, locally (docker-compose) and in the cloud with Rancher</li><li>Spring Boot and Spring Data DAO implementation for the database connection</li><li>Use of OrientDB and OrientDB Graph as persistence storage</li></ul></td>
+    <td class="c4">Java, Kafka, Confluent, Kafka Streams, OrientDB, Elasticsearch, Spring Boot, Git, GitLab, Rancher, Docker, docker-compose</td></tr>
+  <tr><td class="c1">Research<br>Machine Learning Scientist<br>02/2017 – 10/2017</td>
+    <td class="c2">Time series classification with artificial neural networks.</td>
+    <td><ul><li>Studying and describing three state-of-the-art architectures of artificial neural networks</li><li>Identifying their theoretical differences</li><li>Designing and implementing an experimental procedure including automatic hyperparameter optimisation</li><li>Generating time series classification data sets</li><li>Comparing the networks on these data sets</li></ul></td>
+    <td class="c4">Python, Docker, Keras, pandas, Jupyter</td></tr>
+  <tr><td class="c1">Agriculture<br>Data Scientist<br>11/2016 – 01/2017</td>
+    <td class="c2">Data analysis.</td>
+    <td><ul><li>Data ingestion from relational DB sources using MS SQL</li><li>Data cleaning</li><li>Data transformation using pandas</li><li>Data analysis using Matplotlib</li></ul></td>
+    <td class="c4">Python, Jupyter, pandas, Matplotlib, SQL</td></tr>
+  <tr><td class="c1">Electric Utility<br>Java &amp; JavaScript Developer<br>03/2015 – 10/2016</td>
+    <td class="c2">Development of SAP portal applications for a web portal.</td>
+    <td><ul><li>Development of SAP portal applications in Java (backend) and AngularJS and HTML (frontend) based on specifications from the customer</li><li>Deployment of the applications on the web portal</li><li>Testing of the applications</li><li>Communication with the customer’s testers and incorporating their requests</li></ul></td>
+    <td class="c4">Java, AngularJS, HTML, CSS, SAP NetWeaver Developer Studio, SAP GUI</td></tr>
+</table>
+
+<h2>Certificates</h2>
+<table class="grid certs">
+  <tr><th>Name</th><th>Issuing organisation</th><th>Issue date</th><th>Certificate ID</th><th>Certificate URL</th></tr>
+  <tr><td class="n">34 Things to Know about Carbon and Climate</td><td class="o">LinkedIn Learning</td><td class="d">10/2023</td><td class="i"></td><td class="u">https://www.linkedin.com/learning/certificates/ad65c2c4c6ad87bc476f8308bf3185805aa8a70071438cc6f0fde85b76a4c168</td></tr>
+  <tr><td class="n">How to Get a Job in Climate</td><td class="o">LinkedIn Learning</td><td class="d">10/2023</td><td class="i"></td><td class="u">https://www.linkedin.com/learning/certificates/9c290adfe6810e8beeb79a99b78df0375d6d3f0c3636c9b7a053495641d79bd1</td></tr>
+  <tr><td class="n">ChatGPT Prompt Engineering for Developers</td><td class="o">DeepLearning.AI</td><td class="d">10/2023</td><td class="i"></td><td class="u">https://learn.deeplearning.ai/chatgpt-prompt-eng</td></tr>
+  <tr><td class="n">Data Visualization</td><td class="o">Kaggle</td><td class="d">11/2022</td><td class="i"></td><td class="u">https://www.kaggle.com/learn/certification/jakubwaller/data-visualization</td></tr>
+  <tr><td class="n">Deploying Machine Learning Models in Production</td><td class="o">Coursera</td><td class="d">07/2022</td><td class="i">53REXCQ5PHHX</td><td class="u">https://www.coursera.org/account/accomplishments/certificate/53REXCQ5PHHX</td></tr>
+  <tr><td class="n">Machine Learning Engineering for Production (MLOps)</td><td class="o">Coursera</td><td class="d">07/2022</td><td class="i">ZM4TB7LFHRFA</td><td class="u">https://www.coursera.org/account/accomplishments/specialization/certificate/ZM4TB7LFHRFA</td></tr>
+  <tr><td class="n">Machine Learning Modeling Pipelines in Production</td><td class="o">Coursera</td><td class="d">04/2022</td><td class="i">XST476L3DT42</td><td class="u">https://www.coursera.org/account/accomplishments/certificate/XST476L3DT42</td></tr>
+  <tr><td class="n">Machine Learning Data Lifecycle in Production</td><td class="o">Coursera</td><td class="d">11/2021</td><td class="i">5SGQK7P4T73Z</td><td class="u">https://www.coursera.org/account/accomplishments/certificate/5SGQK7P4T73Z</td></tr>
+  <tr><td class="n">Introduction to Machine Learning in Production</td><td class="o">Coursera</td><td class="d">08/2021</td><td class="i">94AA8LVBEA3G</td><td class="u">https://www.coursera.org/account/accomplishments/certificate/94AA8LVBEA3G</td></tr>
+  <tr><td class="n">Microsoft Certified: Azure AI Fundamentals</td><td class="o">Microsoft</td><td class="d">05/2021</td><td class="i">H828-3446</td><td class="u"></td></tr>
+</table>
+
+</body>
+</html>
