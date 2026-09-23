@@ -261,7 +261,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'PapaMap',
     description:
-      'A map of over 18,000 places across 44 European countries with a baby changing table, colored by whether a dad can actually reach it: green means an accessible room, red means women’s room only, grey means nobody has recorded which room yet. Grey pins deep-link to MapComplete, turning each gap into an OpenStreetMap edit. 31 languages, rebuilt nightly from OSM on a self-hosted VPS.',
+      'A map of over 26,000 places across 49 countries (44 in Europe, plus Australia, Canada, Japan, New Zealand and the US) with a baby changing table, colored by whether a dad can actually reach it: green means an accessible room, red means women’s room only, grey means nobody has recorded which room yet. Grey pins can be answered right in the popup — sign in with OpenStreetMap and it writes the edit for you — or deep-link to MapComplete for a fuller edit. 32 languages, rebuilt nightly from OSM on a self-hosted VPS.',
     url: 'https://papamap.de',
     image: porfolioImage12,
   },
