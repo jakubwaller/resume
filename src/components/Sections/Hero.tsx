@@ -32,7 +32,7 @@ const Hero: FC = memo(() => {
                 <span className="absolute inline-flex h-full w-full animate-pulse-soft rounded-full bg-emerald-400 opacity-75" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
               </span>
-              Decarbonising supply chains @ shipzero
+              On parental leave — building PapaMap
             </span>
 
             <h1 className="text-balance font-sans text-5xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl">
