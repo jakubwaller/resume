@@ -68,7 +68,7 @@ const Hero: FC = memo(() => {
         </div>
 
         <a
-          aria-label="Scroll to about section"
+          aria-label="Scroll to portfolio section"
           className="absolute inset-x-0 bottom-6 z-10 mx-auto flex w-fit items-center gap-x-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs text-ink-300 backdrop-blur-md transition-colors hover:text-white"
           href={`/#${SectionId.Portfolio}`}>
           <span>Scroll</span>
