@@ -10,7 +10,10 @@ import {useStore} from '../../store';
 export const headerID = 'headerNav';
 
 const Header: FC = memo(() => {
-  const navSections = useMemo(() => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Contact], []);
+  const navSections = useMemo(
+    () => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Press, SectionId.Contact],
+    [],
+  );
   const {currentSection} = useStore();
 
   return (

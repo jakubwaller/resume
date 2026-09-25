@@ -31,6 +31,7 @@ import {
   Hero,
   HomepageMeta,
   PortfolioItem,
+  PressItem,
   SkillGroup,
   Social,
   TimelineItem,
@@ -52,6 +53,7 @@ export const SectionId = {
   About: 'about',
   Contact: 'contact',
   Portfolio: 'portfolio',
+  Press: 'press',
   Resume: 'resume',
   Skills: 'skills',
 } as const;
@@ -311,6 +313,47 @@ export const portfolioItems: PortfolioItem[] = [
       'Tired of refreshing the page with available appointments at the Leipzig city office? The bot in this channel checks them for you and every minute sends available appointments.',
     url: 'https://github.com/jakubwaller/leipzigappointmentsbot',
     image: porfolioImage7,
+  },
+];
+
+/**
+ * Press section
+ */
+export const pressItems: PressItem[] = [
+  {
+    outlet: 'Hamburger Abendblatt',
+    date: '10 Sep 2026',
+    title: 'Kaum Wickeltische für Väter in Hamburg: „Als wären Frauen die Nummer-eins-Eltern“',
+    project: 'PapaMap',
+    url: 'https://www.abendblatt.de/hamburg/eimsbuettel/article413082451/kaum-wickeltische-fuer-vaeter-in-hamburg-als-waeren-frauen-die-nummer-eins-eltern.html',
+    note: 'In print on 11 Sep 2026, also in the Bergedorfer Zeitung.',
+    paywall: true,
+  },
+  {
+    outlet: 'Hamburger Abendblatt',
+    date: '11 Sep 2026',
+    title: 'Hamburger startet Wickeltisch-Karte für Väter – gut gemacht! Ein Kommentar',
+    project: 'PapaMap',
+    url: 'https://www.abendblatt.de/hamburg/eimsbuettel/article413112505/hamburger-startet-wickeltisch-karte-fuer-vaeter-gut-gemacht-ein-kommentar.html',
+    kind: 'Commentary',
+    paywall: true,
+  },
+  {
+    outlet: 'Caroline Criado Perez',
+    date: '14 Sep 2026',
+    title: 'The Male Menopause',
+    project: 'PapaMap',
+    url: 'https://newsletter.carolinecriadoperez.com/p/the-male-menopause',
+    kind: 'Newsletter',
+    note: 'A mention by the author of Invisible Women, the book that got PapaMap started.',
+  },
+  {
+    outlet: 'Leipziger Zeitung (L-IZ)',
+    date: '17 Jul 2026',
+    title:
+      'Einfacher freie Termine in den Leipziger und Dresdner Bürgerämtern finden: Der Bürgerwecker von Jakub Waller',
+    project: 'Bürgerwecker',
+    url: 'https://www.l-iz.de/politik/leipzig/2026/07/einfacher-freie-termine-in-den-leipziger-und-dresdner-buergeraemtern-finden-der-buergerwecker-von-jakub-waller-664613',
   },
 ];
 
