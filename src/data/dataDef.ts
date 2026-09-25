@@ -76,6 +76,20 @@ export interface PortfolioItem {
 }
 
 /**
+ * Press section
+ */
+export interface PressItem {
+  outlet: string;
+  date: string;
+  title: string;
+  project: string;
+  url: string;
+  kind?: string;
+  note?: string;
+  paywall?: boolean;
+}
+
+/**
  * Resume section
  */
 export interface TimelineItem {
