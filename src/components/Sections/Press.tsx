@@ -64,12 +64,15 @@ const PressRow: FC<{item: PressItem}> = memo(({item}) => {
               </span>
             )}
           </div>
-          <p className="text-pretty text-base font-medium leading-snug text-white transition-colors group-hover:text-brand-400 sm:text-lg">
+          <p className="text-base font-medium leading-snug text-white transition-colors group-hover:text-brand-400 sm:text-lg">
             {title}
           </p>
           {note && <p className="text-xs leading-relaxed text-ink-500">{note}</p>}
         </div>
-        <ArrowTopRightOnSquareIcon className="mt-1 h-4 w-4 shrink-0 text-ink-500 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand-400" />
+        <ArrowTopRightOnSquareIcon
+          aria-hidden="true"
+          className="mt-1 h-4 w-4 shrink-0 text-ink-500 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand-400"
+        />
       </a>
     </li>
   );
