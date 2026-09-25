@@ -14,15 +14,12 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import MastodonIcon from '../components/Icon/MastodonIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import heroImage from '../images/header.png';
-import porfolioImage1 from '../images/portfolio/portfolio-1.gif';
-import porfolioImage2 from '../images/portfolio/portfolio-2.gif';
 import porfolioImage3 from '../images/portfolio/portfolio-3.gif';
 import porfolioImage4 from '../images/portfolio/portfolio-4.gif';
-import porfolioImage7 from '../images/portfolio/portfolio-7.gif';
-import porfolioImage9 from '../images/portfolio/portfolio-9.gif';
 import porfolioImage12 from '../images/portfolio/portfolio-12.gif';
 import porfolioImage13 from '../images/portfolio/portfolio-13.gif';
 import porfolioImage14 from '../images/portfolio/portfolio-14.gif';
+import porfolioImage15 from '../images/portfolio/portfolio-15.gif';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -254,13 +251,6 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Bürgerwecker',
-    description:
-      'A free email service that watches appointment booking sites in 29 German cities (Bürgerbüro, Ausländerbehörde, KFZ-Zulassung and more) and notifies you the moment a matching slot opens up. Self-hosted on a small VPS with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
-    url: 'https://buergerwecker.de',
-    image: porfolioImage3,
-  },
-  {
     title: 'PapaMap',
     description:
       'A map of over 26,000 places across 49 countries (44 in Europe, plus Australia, Canada, Japan, New Zealand and the US) with a baby changing table, colored by whether a dad can actually reach it: green means an accessible room, red means women’s room only, grey means nobody has recorded which room yet. Grey pins can be answered right in the popup — sign in with OpenStreetMap and it writes the edit for you — or deep-link to MapComplete for a fuller edit. 32 languages, rebuilt nightly from OSM on a self-hosted VPS.',
@@ -268,11 +258,11 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage12,
   },
   {
-    title: 'Weather Analysis',
+    title: 'Bürgerwecker',
     description:
-      'Collects outside weather (Open-Meteo) and Home Assistant Zigbee sensor readings into a SQLite database on a Raspberry Pi, with a Streamlit dashboard for inside-vs-outside trends, temperature deltas, daily ranges and hour-by-day heatmaps — and how strongly (and how slowly) the flat follows the weather.',
-    url: 'https://github.com/jakubwaller/weather-analysis',
-    image: porfolioImage13,
+      'A free email service that watches appointment booking sites in 29 German cities (Bürgerbüro, Ausländerbehörde, KFZ-Zulassung and more) and notifies you the moment a matching slot opens up. Self-hosted on a small VPS with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
+    url: 'https://buergerwecker.de',
+    image: porfolioImage3,
   },
   {
     title: 'Zapfkompass',
@@ -282,37 +272,25 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage14,
   },
   {
+    title: 'Wattif',
+    description:
+      'Ask what-if of your own ride data. A local command-line tool that reads Garmin FIT files, estimates power from speed, gradient and air density, corrects every ride for the wind you actually rode through, and answers two questions without a power meter: what would make you faster, and are you actually getting fitter. Within-ride A/B tests compare equipment or riding position with honest error bars. No server, no account, no telemetry.',
+    url: 'https://github.com/jakubwaller/wattif',
+    image: porfolioImage15,
+  },
+  {
+    title: 'Weather Analysis',
+    description:
+      'Collects outside weather (Open-Meteo) and Home Assistant Zigbee sensor readings into a SQLite database on a Raspberry Pi, with a Streamlit dashboard for inside-vs-outside trends, temperature deltas, daily ranges and hour-by-day heatmaps — and how strongly (and how slowly) the flat follows the weather.',
+    url: 'https://github.com/jakubwaller/weather-analysis',
+    image: porfolioImage13,
+  },
+  {
     title: 'Probable Futures Bot',
     description:
       'Probable Futures Bot is a Telegram Bot that is connected to the Probable Futures API and sends Probable Future scenarios for either an address or a location.',
     url: 'https://github.com/jakubwaller/probable-futures-bot',
     image: porfolioImage4,
-  },
-  {
-    title: 'Covid Vaccination Appointments Bot',
-    description:
-      'This bot was notifying users about free covid vaccination appointments in four cities: Hamburg, Leipzig, Stuttgart, and Dresden.',
-    url: 'https://t.me/coronaimpftermine_hamburg',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Strava Bot',
-    description: 'Strava Bot sends you detailed statistics, graphs and maps after every ride/run/hike.',
-    url: 'https://github.com/jakubwaller/strava-data-analysis',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Resume',
-    description: "Who doesn't like recursion",
-    url: 'https://github.com/jakubwaller/resume',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Leipzig Appointments Bot',
-    description:
-      'Tired of refreshing the page with available appointments at the Leipzig city office? The bot in this channel checks them for you and every minute sends available appointments.',
-    url: 'https://github.com/jakubwaller/leipzigappointmentsbot',
-    image: porfolioImage7,
   },
 ];
 
