@@ -381,13 +381,23 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'January 2024 — present',
+    date: 'February 2025 — present',
     location: 'shipzero GmbH',
-    title: 'Data Scientist',
+    title: 'Lead Data Scientist',
     content: (
       <p>
-        Decarbonising global supply chains. Building emission models, ML pipelines and data products that turn messy
-        logistics data into actionable carbon insights for shippers and carriers.
+        Leading the data team. Decarbonising global supply chains: emission models, ML pipelines and data products that
+        turn messy logistics data into actionable carbon insights for shippers and carriers.
+      </p>
+    ),
+  },
+  {
+    date: 'January 2024 — March 2025',
+    location: 'shipzero GmbH',
+    title: 'Data Consultant',
+    content: (
+      <p>
+        Building emission models, ML and data pipelines and data products on logistics data for shippers and carriers.
       </p>
     ),
   },
