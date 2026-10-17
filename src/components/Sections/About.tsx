@@ -29,6 +29,7 @@ const About: FC = memo(() => {
               <Image
                 alt="Jakub Waller"
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                sizes="(min-width: 768px) 33vw, 100vw"
                 src={profileImageSrc}
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink-950 via-ink-950/60 to-transparent p-5">
