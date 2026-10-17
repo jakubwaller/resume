@@ -282,7 +282,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Wattif',
     description:
       'Ask what-if of your own ride data. A local command-line tool that reads Garmin FIT files, estimates power from speed, gradient and air density, corrects every ride for the wind you actually rode through, and answers two questions without a power meter: what would make you faster, and are you actually getting fitter. Within-ride A/B tests compare equipment or riding position with honest error bars. No server, no account, no telemetry.',
-    url: 'https://github.com/jakubwaller/wattif',
+    url: 'https://wattif.jakubwaller.eu',
     image: porfolioImage15,
   },
   {
