@@ -17,9 +17,9 @@ import heroImage from '../images/header.png';
 import porfolioImage3 from '../images/portfolio/portfolio-3.gif';
 import porfolioImage4 from '../images/portfolio/portfolio-4.gif';
 import porfolioImage12 from '../images/portfolio/portfolio-12.gif';
-import porfolioImage13 from '../images/portfolio/portfolio-13.gif';
 import porfolioImage14 from '../images/portfolio/portfolio-14.gif';
 import porfolioImage15 from '../images/portfolio/portfolio-15.gif';
+import porfolioImage16 from '../images/portfolio/portfolio-16.gif';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -258,6 +258,13 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage12,
   },
   {
+    title: 'Bundesschnitt',
+    description:
+      'Germany in maps and numbers, district by district: all 400 districts compared with the national average — the Bundesschnitt — on nine indicators from the official statistics, with the source under every value. District profiles, rankings with CSV downloads, a Europe comparison and a weekly page of new figures, also posted as chart cards and short videos on Instagram, Facebook and Bluesky. German and English, a static site on a self-hosted VPS, no tracking.',
+    url: 'https://bundesschnitt.de',
+    image: porfolioImage16,
+  },
+  {
     title: 'Bürgerwecker',
     description:
       'A free email service that watches appointment booking sites in 29 German cities (Bürgerbüro, Ausländerbehörde, KFZ-Zulassung and more) and notifies you the moment a matching slot opens up. Self-hosted on a small VPS with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
@@ -277,13 +284,6 @@ export const portfolioItems: PortfolioItem[] = [
       'Ask what-if of your own ride data. A local command-line tool that reads Garmin FIT files, estimates power from speed, gradient and air density, corrects every ride for the wind you actually rode through, and answers two questions without a power meter: what would make you faster, and are you actually getting fitter. Within-ride A/B tests compare equipment or riding position with honest error bars. No server, no account, no telemetry.',
     url: 'https://github.com/jakubwaller/wattif',
     image: porfolioImage15,
-  },
-  {
-    title: 'Weather Analysis',
-    description:
-      'Collects outside weather (Open-Meteo) and Home Assistant Zigbee sensor readings into a SQLite database on a Raspberry Pi, with a Streamlit dashboard for inside-vs-outside trends, temperature deltas, daily ranges and hour-by-day heatmaps — and how strongly (and how slowly) the flat follows the weather.',
-    url: 'https://github.com/jakubwaller/weather-analysis',
-    image: porfolioImage13,
   },
   {
     title: 'Probable Futures Bot',
