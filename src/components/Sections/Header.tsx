@@ -32,7 +32,7 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
   ({navSections, currentSection}) => {
     return (
       <header className="fixed inset-x-0 top-4 z-50 hidden justify-center sm:flex" id={headerID}>
-        <nav className="flex items-center gap-x-1 rounded-full border border-white/10 bg-ink-900/70 px-2 py-1.5 shadow-bento backdrop-blur-xl">
+        <nav className="flex items-center gap-x-1 rounded-full border border-white/10 bg-ink-900/90 px-2 py-1.5 shadow-bento">
           <Link
             className="px-3 py-1.5 text-sm font-semibold tracking-tight text-white transition-colors hover:text-brand-400"
             href={`/#${SectionId.Hero}`}>
@@ -73,7 +73,7 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
       <>
         <button
           aria-label="Menu Button"
-          className="fixed right-3 top-3 z-40 rounded-full border border-white/10 bg-ink-900/80 p-2.5 backdrop-blur-xl ring-offset-ink-950 transition-colors hover:bg-ink-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 sm:hidden"
+          className="fixed right-3 top-3 z-40 rounded-full border border-white/10 bg-ink-900/90 p-2.5 ring-offset-ink-950 transition-colors hover:bg-ink-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 sm:hidden"
           onClick={toggleOpen}>
           {isOpen ? (
             <XMarkIcon className="h-5 w-5 text-white" />
