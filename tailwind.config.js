@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'InterVariable', ...defaultTheme.fontFamily.sans],
-        display: ['"Instrument Serif"', 'ui-serif', 'Georgia', 'serif'],
-        mono: ['"JetBrains Mono"', ...defaultTheme.fontFamily.mono],
+        sans: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
+        display: ['var(--font-instrument-serif)', 'ui-serif', 'Georgia', 'serif'],
+        mono: ['var(--font-jetbrains-mono)', ...defaultTheme.fontFamily.mono],
       },
       colors: {
         yellow: '#efc603',
