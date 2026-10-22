@@ -326,6 +326,14 @@ export const pressItems: PressItem[] = [
     note: 'A mention by the author of Invisible Women, the book that got PapaMap started.',
   },
   {
+    outlet: 'NDR Hamburg Journal',
+    date: '19 Oct 2026',
+    title: 'Hamburg Morgen: „Papamap“ führt Väter zu Wickeltischen',
+    project: 'PapaMap',
+    url: 'https://www.ndr.de/fernsehen/sendungen/hamburg_journal/hamburg-morgen-papamap-fuehrt-vaeter-zu-wickeltischen,hamj-15692.html',
+    kind: 'TV',
+  },
+  {
     outlet: 'Leipziger Zeitung (L-IZ)',
     date: '17 Jul 2026',
     title:
