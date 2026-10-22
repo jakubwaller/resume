@@ -299,6 +299,23 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const pressItems: PressItem[] = [
   {
+    outlet: 'NDR Hamburg Journal',
+    date: '19 Oct 2026',
+    title: 'Hamburg Morgen: „Papamap“ führt Väter zu Wickeltischen',
+    project: 'PapaMap',
+    url: 'https://www.ndr.de/fernsehen/sendungen/hamburg_journal/hamburg-morgen-papamap-fuehrt-vaeter-zu-wickeltischen,hamj-15692.html',
+    kind: 'TV',
+  },
+  {
+    outlet: 'Caroline Criado Perez',
+    date: '14 Sep 2026',
+    title: 'The Male Menopause',
+    project: 'PapaMap',
+    url: 'https://newsletter.carolinecriadoperez.com/p/the-male-menopause',
+    kind: 'Newsletter',
+    note: 'A mention by the author of Invisible Women, the book that got PapaMap started.',
+  },
+  {
     outlet: 'Hamburger Abendblatt',
     date: '10 Sep 2026',
     title: 'Kaum Wickeltische für Väter in Hamburg: „Als wären Frauen die Nummer-eins-Eltern“',
@@ -315,15 +332,6 @@ export const pressItems: PressItem[] = [
     url: 'https://www.abendblatt.de/hamburg/eimsbuettel/article413112505/hamburger-startet-wickeltisch-karte-fuer-vaeter-gut-gemacht-ein-kommentar.html',
     kind: 'Commentary',
     paywall: true,
-  },
-  {
-    outlet: 'Caroline Criado Perez',
-    date: '14 Sep 2026',
-    title: 'The Male Menopause',
-    project: 'PapaMap',
-    url: 'https://newsletter.carolinecriadoperez.com/p/the-male-menopause',
-    kind: 'Newsletter',
-    note: 'A mention by the author of Invisible Women, the book that got PapaMap started.',
   },
   {
     outlet: 'Leipziger Zeitung (L-IZ)',
