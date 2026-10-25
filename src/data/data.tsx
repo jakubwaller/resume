@@ -299,6 +299,13 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const pressItems: PressItem[] = [
   {
+    outlet: 'NDR.de',
+    date: '23 Oct 2026',
+    title: 'Karten-App erleichtert Vätern das Finden von Wickeltischen',
+    project: 'PapaMap',
+    url: 'https://www.ndr.de/nachrichten/hamburg/Artikelvorlage-HH,papamap-100.html',
+  },
+  {
     outlet: 'NDR Hamburg Journal',
     date: '19 Oct 2026',
     title: 'Hamburg Morgen: „Papamap“ führt Väter zu Wickeltischen',
