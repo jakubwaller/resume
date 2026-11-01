@@ -63,6 +63,7 @@
     "typescript": "5.1.6"
   },
   "resolutions": {
-    "autoprefixer": "10.4.5"
+    "autoprefixer": "10.4.5",
+    "@tailwindcss/typography/postcss-selector-parser": "6.1.5"
   }
 }
