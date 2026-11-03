@@ -299,7 +299,7 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const pressItems: PressItem[] = [
   {
-    outlet: 'NDR.de',
+    outlet: 'NDR.de · tagesschau.de',
     date: '23 Oct 2026',
     title: 'Karten-App erleichtert Vätern das Finden von Wickeltischen',
     project: 'PapaMap',
