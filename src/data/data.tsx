@@ -139,8 +139,8 @@ export const aboutData: About = {
       <a className="font-semibold text-zinc-100 hover:text-orange-400" href="https://www.shipzero.com">
         shipzero
       </a>
-      , now as Lead Data Scientist, helping decarbonise global supply chains — building emission models, ML pipelines and data products that turn
-      messy logistics data into actionable carbon insights. Because there is no Planet B.
+      , now as Lead Data Scientist, helping decarbonise global supply chains — building emission models, ML pipelines
+      and data products that turn messy logistics data into actionable carbon insights. Because there is no Planet B.
       <br></br>
       <br></br>
       Before that, I spent five years at Qimia GmbH on a wide range of Data Science, Machine Learning and Data
