@@ -57,6 +57,9 @@ App-only flows: none. The site has no app; the apps of the linked projects are o
   leave.** The leave is on the website only, on purpose.
 - **The two shipzero roles overlap** (Data Consultant until March 2025, Lead Data Scientist from February
   2025); the dates match LinkedIn.
+- **Titles and dates are settled:** Lead Data Scientist at shipzero (the hero and About say so too),
+  Data Scientist/Engineer at Qimia, Bioinformatics Analyst from July 2013, confirmed by the owner.
+- **One contact address** (the one on the Contact card and in the PDF) is also the one on the Datenschutz page.
 - **The PDF's career break runs 12/2022 – 12/2023**, confirmed by the owner; the site's Experience list has
   no entry for the gap.
 - **Portfolio order:** PapaMap first as the flagship, then Bundesschnitt, then the rest. Probable Futures
