@@ -29,7 +29,7 @@ const Footer: FC = memo(() => (
       <div className="flex flex-col items-center gap-y-1 sm:items-end">
         <div className="flex gap-x-3 text-xs text-ink-400">
           <Link className="py-3 hover:text-brand-400" href="/datenschutz">
-            Datenschutz
+            Privacy / Datenschutz
           </Link>
         </div>
         <span className="text-xs text-ink-500">© {new Date().getFullYear()} Jakub Waller</span>
