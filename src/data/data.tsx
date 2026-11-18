@@ -2,7 +2,6 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
   FlagIcon,
   MapIcon,
   SparklesIcon,
@@ -155,7 +154,6 @@ export const aboutData: About = {
   ),
   aboutItems: [
     {label: 'Location', text: <>Hamburg, Germany</>, Icon: MapIcon},
-    {label: 'Age', text: <>34</>, Icon: CalendarIcon},
     {label: 'Nationality', text: <>Czech &amp; German</>, Icon: FlagIcon},
     {label: 'Interests', text: <>Cycling, books, music</>, Icon: SparklesIcon},
     {
