@@ -20,7 +20,7 @@ const Section: FC<
   );
 
   return (
-    <InView onChange={handleOnChange} threshold={0.2}>
+    <InView onChange={handleOnChange} rootMargin="-50% 0px -50% 0px" threshold={0}>
       <section className={classNames(className, {'px-4 py-16 md:py-24 lg:px-8': !noPadding})} id={sectionId}>
         <div className={classNames({'mx-auto max-w-screen-lg': !noPadding})}>{children}</div>
       </section>
