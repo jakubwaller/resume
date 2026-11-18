@@ -135,11 +135,11 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <p className="prose prose-sm text-zinc-300 sm:prose-base">
-      For the past 2+ years I've been a Lead Data Scientist at{' '}
+      For the past 2+ years I've been at{' '}
       <a className="font-semibold text-zinc-100 hover:text-orange-400" href="https://www.shipzero.com">
         shipzero
       </a>
-      , helping decarbonise global supply chains — building emission models, ML pipelines and data products that turn
+      , now as Lead Data Scientist, helping decarbonise global supply chains — building emission models, ML pipelines and data products that turn
       messy logistics data into actionable carbon insights. Because there is no Planet B.
       <br></br>
       <br></br>
