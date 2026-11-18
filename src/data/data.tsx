@@ -70,7 +70,7 @@ export const heroData: Hero = {
         <a
           className="font-semibold text-white underline decoration-brand-500/50 underline-offset-4 transition-colors hover:text-brand-400 hover:decoration-brand-400"
           href="https://github.com/jakubwaller">
-          Data Scientist
+          Lead Data Scientist
         </a>
         , working in climate, at{' '}
         <a
@@ -135,12 +135,12 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <p className="prose prose-sm text-zinc-300 sm:prose-base">
-      For the past 2+ years I've been a Data Scientist at{' '}
+      For the past 2+ years I've been at{' '}
       <a className="font-semibold text-zinc-100 hover:text-orange-400" href="https://www.shipzero.com">
         shipzero
       </a>
-      , helping decarbonise global supply chains — building emission models, ML pipelines and data products that turn
-      messy logistics data into actionable carbon insights. Because there is no Planet B.
+      , now as Lead Data Scientist, helping decarbonise global supply chains — building emission models, ML pipelines
+      and data products that turn messy logistics data into actionable carbon insights. Because there is no Planet B.
       <br></br>
       <br></br>
       Before that, I spent five years at Qimia GmbH on a wide range of Data Science, Machine Learning and Data
@@ -267,7 +267,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Bürgerwecker',
     description:
-      'A free email service that watches appointment booking sites in 29 German cities (Bürgerbüro, Ausländerbehörde, KFZ-Zulassung and more) and notifies you the moment a matching slot opens up. Self-hosted on a small VPS with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
+      'A free email service that watches appointment booking sites in 30 German cities (Bürgerbüro, Ausländerbehörde, KFZ-Zulassung and more) and notifies you the moment a matching slot opens up. Self-hosted on a small VPS with Flask, a Python poller and Docker Compose — no accounts, no tracking, no ads.',
     url: 'https://buergerwecker.de',
     image: porfolioImage3,
   },
@@ -419,7 +419,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'November 2017 - November 2022',
     location: 'Qimia GmbH',
-    title: 'Data Scientist',
+    title: 'Data Scientist/Engineer',
     content: (
       <p>
         Working on various projects involving Data Science, Machine Learning and Data Engineering topics using a wide
@@ -456,7 +456,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'September 2013 - June 2014',
+    date: 'July 2013 - June 2014',
     location: 'The National Institute of Public Health',
     title: 'Bioinformatics Analyst',
     content: <p>Extracting information from rRNA using various bioinformatics software.</p>,
@@ -470,7 +470,7 @@ export const certificates: TimelineItem[] = [
     title: '34 Things to Know about Carbon and Climate',
     content: (
       <a
-        className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors"
+        className="inline-flex items-center gap-x-2 py-2.5 text-sm text-ink-300 hover:text-brand-400 transition-colors"
         href="https://www.linkedin.com/learning/certificates/ad65c2c4c6ad87bc476f8308bf3185805aa8a70071438cc6f0fde85b76a4c168?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D"
         rel="noreferrer"
         target="_blank">
@@ -487,7 +487,7 @@ export const certificates: TimelineItem[] = [
     title: 'How to Get a Job in Climate',
     content: (
       <a
-        className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors"
+        className="inline-flex items-center gap-x-2 py-2.5 text-sm text-ink-300 hover:text-brand-400 transition-colors"
         href="https://www.linkedin.com/learning/certificates/9c290adfe6810e8beeb79a99b78df0375d6d3f0c3636c9b7a053495641d79bd1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BOfP6%2BP6RTmSyvxLP6Olcig%3D%3D"
         rel="noreferrer"
         target="_blank">
@@ -504,7 +504,7 @@ export const certificates: TimelineItem[] = [
     title: 'ChatGPT Prompt Engineering for Developers',
     content: (
       <a
-        className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors"
+        className="inline-flex items-center gap-x-2 py-2.5 text-sm text-ink-300 hover:text-brand-400 transition-colors"
         href="https://learn.deeplearning.ai/chatgpt-prompt-eng"
         rel="noreferrer"
         target="_blank">
@@ -518,7 +518,7 @@ export const certificates: TimelineItem[] = [
     title: 'Data Visualization',
     content: (
       <a
-        className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors"
+        className="inline-flex items-center gap-x-2 py-2.5 text-sm text-ink-300 hover:text-brand-400 transition-colors"
         href="https://www.kaggle.com/learn/certification/jakubwaller/data-visualization"
         rel="noreferrer"
         target="_blank">
@@ -535,7 +535,7 @@ export const certificates: TimelineItem[] = [
     title: 'Deploying Machine Learning Models in Production',
     content: (
       <a
-        className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors"
+        className="inline-flex items-center gap-x-2 py-2.5 text-sm text-ink-300 hover:text-brand-400 transition-colors"
         href="https://www.coursera.org/account/accomplishments/certificate/53REXCQ5PHHX"
         rel="noreferrer"
         target="_blank">
@@ -552,7 +552,7 @@ export const certificates: TimelineItem[] = [
     title: 'Machine Learning Engineering for Production (MLOps)',
     content: (
       <a
-        className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors"
+        className="inline-flex items-center gap-x-2 py-2.5 text-sm text-ink-300 hover:text-brand-400 transition-colors"
         href="https://www.coursera.org/account/accomplishments/specialization/certificate/ZM4TB7LFHRFA"
         rel="noreferrer"
         target="_blank">
@@ -569,7 +569,7 @@ export const certificates: TimelineItem[] = [
     title: 'Machine Learning Modeling Pipelines in Production',
     content: (
       <a
-        className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors"
+        className="inline-flex items-center gap-x-2 py-2.5 text-sm text-ink-300 hover:text-brand-400 transition-colors"
         href="https://www.coursera.org/account/accomplishments/certificate/XST476L3DT42"
         rel="noreferrer"
         target="_blank">
@@ -586,7 +586,7 @@ export const certificates: TimelineItem[] = [
     title: 'Machine Learning Data Lifecycle in Production',
     content: (
       <a
-        className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors"
+        className="inline-flex items-center gap-x-2 py-2.5 text-sm text-ink-300 hover:text-brand-400 transition-colors"
         href="https://www.coursera.org/account/accomplishments/certificate/5SGQK7P4T73Z"
         rel="noreferrer"
         target="_blank">
@@ -603,7 +603,7 @@ export const certificates: TimelineItem[] = [
     title: 'Introduction to Machine Learning in Production',
     content: (
       <a
-        className="inline-flex items-center gap-x-2 text-sm text-ink-300 hover:text-brand-400 transition-colors"
+        className="inline-flex items-center gap-x-2 py-2.5 text-sm text-ink-300 hover:text-brand-400 transition-colors"
         href="https://www.coursera.org/account/accomplishments/certificate/94AA8LVBEA3G"
         rel="noreferrer"
         target="_blank">

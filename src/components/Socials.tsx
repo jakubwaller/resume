@@ -8,7 +8,7 @@ const Socials: FC = memo(() => {
       {socialLinks.map(({label, Icon, href}) => (
         <a
           aria-label={label}
-          className="rounded-full border border-white/10 bg-white/5 p-2 text-ink-200 transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-500/40 hover:text-brand-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400"
+          className="rounded-full border border-white/10 bg-white/5 p-3 text-ink-200 sm:p-2.5 transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-500/40 hover:text-brand-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400"
           href={href}
           key={label}
           rel="noreferrer"

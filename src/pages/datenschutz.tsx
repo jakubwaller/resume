@@ -26,8 +26,8 @@ const Datenschutz: FC = memo(() => (
         <h2 className="mb-2 font-medium text-ink-100">Verantwortlicher</h2>
         <p>
           Jakub Waller, Hamburg, Deutschland. Kontakt:{' '}
-          <a className="text-brand-400 hover:text-brand-300" href="mailto:jakub@jakubwaller.eu">
-            jakub@jakubwaller.eu
+          <a className="text-brand-400 hover:text-brand-300" href="mailto:reachout@jakubwaller.eu">
+            reachout@jakubwaller.eu
           </a>
           . Dies ist eine private Seite; ein Impressum nach § 5 DDG ist nicht erforderlich.
         </p>
@@ -42,11 +42,11 @@ const Datenschutz: FC = memo(() => (
       <section>
         <h2 className="mb-2 font-medium text-ink-100">Hosting &amp; Auslieferung</h2>
         <p>
-          Die Seite wird bei Netlify (Netlify, Inc., USA) gehostet und über das Content-Delivery-Netzwerk von
-          Cloudflare (Cloudflare, Inc., USA) ausgeliefert und abgesichert. Beim Aufruf verarbeiten diese Dienste
-          technisch notwendige Server-Logdaten einschließlich deiner IP-Adresse, um die Seite auszuliefern und vor
-          Angriffen zu schützen (Art. 6 Abs. 1 lit. f DSGVO — berechtigtes Interesse an einem sicheren, verfügbaren
-          Angebot). Beide Anbieter sind unter dem EU-US Data Privacy Framework zertifiziert; es bestehen Verträge zur
+          Die Seite wird bei Netlify (Netlify, Inc., USA) gehostet und über das Content-Delivery-Netzwerk von Cloudflare
+          (Cloudflare, Inc., USA) ausgeliefert und abgesichert. Beim Aufruf verarbeiten diese Dienste technisch
+          notwendige Server-Logdaten einschließlich deiner IP-Adresse, um die Seite auszuliefern und vor Angriffen zu
+          schützen (Art. 6 Abs. 1 lit. f DSGVO — berechtigtes Interesse an einem sicheren, verfügbaren Angebot). Beide
+          Anbieter sind unter dem EU-US Data Privacy Framework zertifiziert; es bestehen Verträge zur
           Auftragsverarbeitung.
         </p>
       </section>
@@ -60,8 +60,8 @@ const Datenschutz: FC = memo(() => (
       <section>
         <h2 className="mb-2 font-medium text-ink-100">Deine Rechte</h2>
         <p>
-          Du hast das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung
-          (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21) sowie ein Beschwerderecht bei einer
+          Du hast das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung (Art. 18),
+          Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21) sowie ein Beschwerderecht bei einer
           Datenschutz-Aufsichtsbehörde.
         </p>
       </section>
