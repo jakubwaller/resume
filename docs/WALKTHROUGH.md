@@ -57,7 +57,7 @@ App-only flows: none. The site has no app; the apps of the linked projects are o
   leave.** The leave is on the website only, on purpose.
 - **The two shipzero roles overlap** (Data Consultant until March 2025, Lead Data Scientist from February
   2025); the dates match LinkedIn.
-- **Titles and dates are settled:** Lead Data Scientist at shipzero (the hero and About say so too),
+- **Titles and dates are settled:** Lead Data Scientist at shipzero since February 2025 (the hero says so; About says "for the past 2+ years I've been at shipzero, now as Lead Data Scientist", which counts the whole shipzero time from January 2024),
   Data Scientist/Engineer at Qimia, Bioinformatics Analyst from July 2013, confirmed by the owner.
 - **One contact address** (the one on the Contact card and in the PDF) is also the one on the Datenschutz page.
 - **The PDF's career break runs 12/2022 – 12/2023**, confirmed by the owner; the site's Experience list has
@@ -86,6 +86,8 @@ The walk must never send anything on anyone's behalf or change anything anywhere
   Spotify): open the page read-only. No login, follow, connect, message, star, like or comment.
 - **Telegram bot** (`t.me/ProbableFuturesBot`): open the web preview only; never press Start or send it
   anything, it answers with real API calls.
+- **Employer site** (www.shipzero.com, linked from the hero and About): one hop to the landing page and stop.
+  No sign-in, no contact or demo form, no newsletter.
 - **Project sites** (papamap.de, bundesschnitt.de, buergerwecker.de, zapfkompass.de,
   wattif.jakubwaller.eu): one hop to the landing page and stop. They have their own walks. No sign-up,
   no OpenStreetMap sign-in, no edits, no submissions, no app installs.
